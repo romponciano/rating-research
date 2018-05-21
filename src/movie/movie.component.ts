@@ -20,7 +20,7 @@ export class MovieComponent implements OnInit {
       this.ids = new MovieIdList();
     }
 
-    public getRandomMovieFromOmdbApi(): void {
+    public getRandomMovieFromOmdbApi() {
       this.movie = new Movie();
       const id = this.getRandomMovieId();
       this.movieService.getMovieFromOmdbById(id)
