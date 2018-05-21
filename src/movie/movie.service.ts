@@ -1,0 +1,17 @@
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Movie } from './movie.model';
+import { Observable } from 'rxjs';
+
+@Injectable()
+export class MovieService {
+    private apiRequestBaseUrl = '';
+    private pathMovieIdList = 'assets/omdbMovieList.txt';
+
+    constructor(private _http: HttpClient) {}
+
+    public getMovieFromOmdbById(id: string) {
+        const requestUrl = this.apiRequestBaseUrl + id;
+        return this._http.get<Movie>(requestUrl);
+    }
+}
