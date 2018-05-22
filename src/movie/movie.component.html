@@ -1,13 +1,13 @@
-<div>
+<div class="text-center">
     <div *ngIf="movie">
-        <strong>{{movie.Title}}</strong>
-        <br><br>
+        <h4>{{movie.Title}}</h4>
         <img src={{movie.Poster}} />
     </div>
     <div *ngIf="!movie">
         <strong>Movie not found. Please, try again tomorrow.</strong>
     </div>
     <div>
-        <input id="btnTryAgain" value="Get another movie" type="submit" (click)='getRandomMovieFromOmdbApi()' />
+        <br>
+        <input class="btn btn-primary" id="btnTryAgain" value="Try another movie" type="submit" (click)='getRandomMovieFromOmdbApi()' />
     </div>
 </div>
