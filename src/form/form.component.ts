@@ -1,15 +1,34 @@
-import { Component } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
+import { FormControl, Validators } from '@angular/forms';
+
+interface RatingOption {
+    value: string;
+    label: string;
+    imgUrl: string;
+}
 
 @Component({
     selector: 'app-form',
     templateUrl: './form.component.html',
     styleUrls: ['./form.component.css']
 })
-export class FormComponent {
-    ratingChoice: string;
+export class FormComponent implements OnInit {
+    private ratingChoice: RatingOption;
+    private options: RatingOption[];
+    private inputEmail: FormControl;
 
-    options = [
-        'Sistema de estrelas',
-        'Sistema like/dislike'
-    ];
+    ngOnInit() {
+        this.initializeOptions();
+        this.inputEmail = new FormControl('', [
+            Validators.email,
+            Validators.required
+        ]);
+    }
+
+    private initializeOptions() {
+        this.options = [
+            { value: 'star', label: 'Sistema de Estrelas', imgUrl: '../assets/star-rating.png'},
+            { value: 'binary', label: 'Sistema Like/Dislike', imgUrl: '../assets/binary-rating.png'}
+        ];
+    }
 }

@@ -1,0 +1,15 @@
+.custom-image {
+    height: 60px;
+}
+
+.input-email {
+    width: 250px;
+}
+
+.input-motivation {
+    width: 400px;
+}
+
+.mat-radio-item.mat-radio-item {
+    display: inline;
+}
