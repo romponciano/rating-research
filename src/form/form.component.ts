@@ -13,9 +13,9 @@ interface RatingOption {
     styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-    private ratingChoice: RatingOption;
-    private options: RatingOption[];
-    private inputEmail: FormControl;
+    public ratingChoice: RatingOption;
+    public options: RatingOption[];
+    public inputEmail: FormControl;
 
     ngOnInit() {
         this.initializeOptions();

@@ -4,10 +4,10 @@
         <img src={{movie.Poster}} />
     </div>
     <div *ngIf="!movie">
-        <strong>Movie not found. Please, try again tomorrow.</strong>
+        <strong>Filme não encontrado. Por favor, tente novamente.</strong>
     </div>
     <div>
         <br>
-        <input class="btn btn-primary" id="btnTryAgain" value="Try another movie" type="submit" (click)='getRandomMovieFromOmdbApi()' />
+        <input class="btn btn-primary" id="btnTryAgain" value="Tentar outro filme" type="submit" (click)='getRandomMovieFromOmdbApi()' />
     </div>
 </div>

@@ -6,7 +6,7 @@ import { config } from 'rxjs';
 @Injectable()
 export class MovieService {
     private apiKey = '';
-    private apiBaseUrl = 'http://www.omdbapi.com/?apikey=' + this.apiKey + '&i=';
+    private apiBaseUrl = 'https://www.omdbapi.com/?apikey=' + this.apiKey + '&i=';
 
     constructor(private _http: HttpClient) {}
 
