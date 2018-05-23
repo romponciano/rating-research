@@ -2,8 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-star-rating',
-    templateUrl: './star-rating.component.html',
-    styleUrls: ['./star-rating.component.css']
+    templateUrl: './star-rating.component.html'
 })
 export class StarRatingComponent implements OnInit {
     stars: boolean[];
