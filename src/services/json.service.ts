@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Movie } from './movie.model';
+import { Movie } from '../movie/movie.model';
 import { config } from 'rxjs';
 
 @Injectable()
-export class MovieService {
+export class JsonService {
     private apiKey = '';
     private apiBaseUrl = 'https://www.omdbapi.com/?apikey=' + this.apiKey + '&i=';
 

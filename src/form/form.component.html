@@ -2,29 +2,11 @@
 
     <div class="container">
         <div class="row">
-            <h3>Como você prefere avaliar este filme?</h3>
-        </div>
-
-        <div class="card-deck text-center">
-            <div class="card box-shadow" *ngFor="let opt of options">
-                <div class="card-header">
-                    <mat-radio-group name="rating" [(ngModel)]="ratingChoice">
-                        <mat-radio-button value={{opt}}></mat-radio-button>
-                    </mat-radio-group>
-                    <h4 class="my-0 font-weight-normal">{{opt.label}}</h4>
-                </div>
-                <div class="card-body">
-                    <img src={{opt.imgUrl}} class="custom-image" />
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
         <div class="row">
             <mat-form-field class="input-email">
-                <input aria-describedby="emailHelp" matInput name="email" placeholder="Email" [formControl]="inputEmail" width="400px">
+                <input aria-describedby="emailHelp" matInput name="email" placeholder="Email" [formControl]="inputEmail">
                 <mat-error *ngIf="inputEmail.hasError('email') && !inputEmail.hasError('required')">
                     Por favor, insira um email válido.
                 </mat-error>
@@ -35,15 +17,20 @@
         </div>
 
         <div class="row">
-            <div *ngIf="ratingChoice">
-                <mat-form-field class="input-motivation">
-                    <textarea matInput placeholder="Por quê escolheu este tipo de voto?"></textarea>
-                </mat-form-field>
+            <div class="col-sm-12 text-center">
+                <h3>Como você avalia este filme?</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <app-movie></app-movie>
             </div>
         </div>
 
         <div class="row">
-            Botão para enviar
+            <div class="col-sm-12 text-center">
+                <app-star-rating></app-star-rating>
+            </div>
         </div>
     </div>
 
