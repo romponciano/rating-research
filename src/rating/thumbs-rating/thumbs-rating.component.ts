@@ -17,19 +17,17 @@ export class ThumbsRatingComponent implements OnInit {
     public changeThumb(choice: string) {
         this.resetThumbs();
         if (choice === 'up') {
-            // tslint:disable-next-line:prefer-const
             let thumb = document.getElementById('up') as HTMLImageElement;
             this.up = true;
             thumb.src = 'assets/up-activate.png';
         } else {
-            // tslint:disable-next-line:prefer-const
             let thumb = document.getElementById('down') as HTMLImageElement;
             this.down = true;
             thumb.src = 'assets/down-activate.png';
         }
     }
 
-    private resetThumbs() {
+    public resetThumbs() {
         let thumb = document.getElementById('up') as HTMLImageElement;
         thumb.src = 'assets/up-desactivate.png';
         thumb = document.getElementById('down') as HTMLImageElement;

@@ -5,8 +5,9 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MovieComponent } from '../movie/movie.component';
 import { FormComponent } from '../form/form.component';
-import { StarRatingComponent } from '../star-rating/star-rating.component';
-import { ThumbsRatingComponent } from '../thumbs-rating/thumbs-rating.component';
+import { StarRatingComponent } from '../rating/star-rating/star-rating.component';
+import { ThumbsRatingComponent } from '../rating/thumbs-rating/thumbs-rating.component';
+import { RatingComponent } from '../rating/rating.component';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { MatInputModule } from '@angular/material/input';
     HeaderComponent,
     FooterComponent,
     StarRatingComponent,
-    ThumbsRatingComponent
+    ThumbsRatingComponent,
+    RatingComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { MatInputModule } from '@angular/material/input';
     MatRadioModule,
     FormsModule,
     ReactiveFormsModule,
-    MatInputModule
+    MatInputModule,
+    MatCheckboxModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -19,16 +19,14 @@ export class StarRatingComponent implements OnInit {
         this.resetStars();
         for (let i = 0; i <= star; i++) {
             this.stars[star] = true;
-            // tslint:disable-next-line:prefer-const
             let momentStar = document.getElementById(i.toString()) as HTMLImageElement;
             momentStar.src = 'assets/full-star.png';
         }
     }
 
-    private resetStars() {
+    public resetStars() {
         this.stars = [false, false, false, false, false];
         for (let i = 0; i < this.stars.length; i++) {
-            // tslint:disable-next-line:prefer-const
             let momentStar = document.getElementById(i.toString()) as HTMLImageElement;
             momentStar.src = 'assets/empty-star.png';
         }

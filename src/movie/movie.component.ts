@@ -11,6 +11,7 @@ import { Movie } from '../models/movie.model';
 export class MovieComponent implements OnInit {
     public movie: Movie;
     private ids: string[];
+    private apiKeys: string[];
 
     constructor(
       private jsonService: JsonService,
@@ -28,6 +29,7 @@ export class MovieComponent implements OnInit {
         'tt0198781', 'tt1119646', 'tt1454468', 'tt0126029', 'tt0317705',
         'tt0073195', 'tt1843866', 'tt1170358', 'tt1490017', 'tt0796366'
       ];
+      this.apiKeys = [];
     }
 
     ngOnInit() {
@@ -36,11 +38,16 @@ export class MovieComponent implements OnInit {
 
     public getRandomMovieFromOmdbApi() {
       this.movie = new Movie();
-      const id = this.calcService.getRandomArrayValue(this.ids);
-      this.jsonService.getMovieFromOmdbById(id)
+      let id = this.calcService.getRandomArrayValue(this.ids);
+      let key = this.calcService.getRandomArrayValue(this.apiKeys);
+      this.jsonService.getMovieFromOmdbById(id, key)
         .subscribe((res: Movie) => this.movie = {
           Title: res['Title'],
           Poster: res['Poster']
         });
+    }
+
+    public getAnotherMovie() {
+      this.getRandomMovieFromOmdbApi();
     }
 }

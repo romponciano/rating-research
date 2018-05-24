@@ -1,10 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Movie } from '../models/movie.model';
-import { User } from '../models/user.model';
-import { Observable } from 'rxjs/internal/Observable';
-import { catchError } from 'rxjs/operators';
-import { throwError } from 'rxjs';
 
 export class JsonIp {
     ip: string;
@@ -13,15 +9,13 @@ export class JsonIp {
 
 @Injectable()
 export class JsonService {
-    private apiKey = '';
-    private apiBaseUrl = 'https://www.omdbapi.com/?apikey=' + this.apiKey + '&i=';
-    private dbPath = '';
+    private dbPath = 'assets/database.json';
 
     constructor(private _http: HttpClient) { }
 
-    public getMovieFromOmdbById(id: string) {
-        const requestUrl = this.apiBaseUrl + id;
-        return this._http.get<Movie>(requestUrl);
+    public getMovieFromOmdbById(id: string, key: string) {
+        let apiRuestUrl = 'https://www.omdbapi.com/?apikey=' + key + '&i=' + id;
+        return this._http.get<Movie>(apiRuestUrl);
     }
 
     public getIp() {

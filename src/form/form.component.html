@@ -7,15 +7,18 @@
         <div class="row">
             <mat-form-field class="input-email">
                 <input aria-describedby="emailHelp" matInput name="email" placeholder="Email" [formControl]="inputEmail">
-                <mat-error *ngIf="inputEmail.hasError('email') && !inputEmail.hasError('required')">
-                    Por favor, insira um email válido.
-                </mat-error>
-                <mat-error *ngIf="inputEmail.hasError('required')">
-                    É preciso inserir um email.
-                </mat-error>
+                <mat-error *ngIf="inputEmail.hasError('email') && !inputEmail.hasError('required')">Por favor, insira um email válido.</mat-error>
+                <mat-error *ngIf="inputEmail.hasError('required')">Insira um email para continuar.</mat-error>
             </mat-form-field>
         </div>
+        <div class="row">
+            <mat-checkbox (click)="toggleTerms()">
+                Li e aceito os termos
+            </mat-checkbox>
+            {{termsAccepted}}
+        </div>
 
+        <br>
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h3>Como você avalia este filme?</h3>
@@ -27,14 +30,10 @@
             </div>
         </div>
 
+        <br>
         <div class="row">
             <div class="col-sm-12 text-center">
-                <app-star-rating></app-star-rating>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <app-thumbs-rating></app-thumbs-rating>
+                <app-rating></app-rating>
             </div>
         </div>
 

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { JsonService, JsonIp } from '../services/json.service';
-import { User } from '../models/user.model';
+import { JsonService } from '../services/json.service';
 
 @Component({
   selector: 'app-root',
@@ -12,8 +11,7 @@ export class AppComponent implements OnInit {
   title = 'Rating Research';
   public userIp: string;
 
-  constructor(private jsonService: JsonService) {
-  }
+  constructor(private jsonService: JsonService) { }
 
   ngOnInit() {
     this.jsonService.getIp().subscribe(

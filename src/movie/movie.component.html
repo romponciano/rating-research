@@ -6,8 +6,8 @@
     <div *ngIf="!movie">
         <strong>Filme não encontrado. Por favor, tente novamente.</strong>
     </div>
+    <br>
     <div>
-        <br>
-        <input class="btn btn-primary" id="btnTryAgain" value="Avaliar outro" type="submit" (click)='getRandomMovieFromOmdbApi()' />
+        <input class="btn btn-primary" id="btnTryAgain" value="Avaliar outro" type="submit" (click)='getAnotherMovie()' />
     </div>
 </div>
