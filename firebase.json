@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/rating-research",
+    "public": "dist/rating-research/",
     "ignore": [
       "firebase.json",
       "**/.*",

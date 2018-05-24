@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { JsonService } from '../services/json.service';
 import { CalcService } from '../services/calc.service';
-import { Movie } from './movie.model';
+import { Movie } from '../models/movie.model';
 
 @Component({
     selector: 'app-movie',
