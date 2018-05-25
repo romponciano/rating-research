@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewChild, OnInit } from '@angular/core';
 import { JsonService } from '../services/json.service';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,7 @@ import { JsonService } from '../services/json.service';
 })
 export class AppComponent implements OnInit {
   title = 'Vote Filme';
-  public userIp: string;
+  userIp: string;
 
   constructor(private jsonService: JsonService) { }
 

@@ -13,11 +13,18 @@ import { FooterComponent } from '../footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FirebaseConfig } from '../properties/firebase.config';
 import { AngularFireModule } from 'angularfire2/index';
+import { TermsComponent} from '../terms/terms.component';
+import { RouterModule, Routes } from '@angular/router';
 
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+
+const appRoutes: Routes = [
+  { path: 'home', component: FormComponent },
+  { path: 'terms', component: TermsComponent }
+];
 
 @NgModule({
   declarations: [
@@ -28,9 +35,11 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     FooterComponent,
     StarRatingComponent,
     ThumbsRatingComponent,
-    RatingComponent
+    RatingComponent,
+    TermsComponent
   ],
   imports: [
+    RouterModule.forRoot(appRoutes),
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
@@ -39,6 +48,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     ReactiveFormsModule,
     MatInputModule,
     MatCheckboxModule,
+    RouterModule,
     AngularFireModule.initializeApp(FirebaseConfig)
   ],
   providers: [],
