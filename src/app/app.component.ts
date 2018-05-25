@@ -8,7 +8,7 @@ import { JsonService } from '../services/json.service';
   providers: [JsonService]
 })
 export class AppComponent implements OnInit {
-  title = 'Rating Research';
+  title = 'Vote Filme';
   public userIp: string;
 
   constructor(private jsonService: JsonService) { }

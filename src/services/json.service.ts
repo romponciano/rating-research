@@ -1,16 +1,9 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { Movie } from '../models/movie.model';
-
-export class JsonIp {
-    ip: string;
-    constructor() { }
-}
 
 @Injectable()
 export class JsonService {
-    private dbPath = 'assets/database.json';
-
     constructor(private _http: HttpClient) { }
 
     public getMovieFromOmdbById(id: string, key: string) {

@@ -1,21 +1,28 @@
 <form>
-
     <div class="container">
         <div class="row">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <div class="col-sm-12 text-center">
+                <small id="emailHelp" class="form-text text-muted">
+                    We'll never share your email with anyone else.
+                </small>
+            </div>
         </div>
         <div class="row">
-            <mat-form-field class="input-email">
-                <input aria-describedby="emailHelp" matInput name="email" placeholder="Email" [formControl]="inputEmail">
-                <mat-error *ngIf="inputEmail.hasError('email') && !inputEmail.hasError('required')">Por favor, insira um email válido.</mat-error>
-                <mat-error *ngIf="inputEmail.hasError('required')">Insira um email para continuar.</mat-error>
-            </mat-form-field>
+            <div class="col-sm-12 text-center">
+                <mat-form-field class="input-email">
+                    <input aria-describedby="emailHelp" matInput name="email" placeholder="Email" [formControl]="inputEmail">
+                    <mat-error *ngIf="inputEmail.hasError('email') && !inputEmail.hasError('required')">Por favor, insira um email válido.</mat-error>
+                    <mat-error *ngIf="inputEmail.hasError('required')">Insira um email para continuar.</mat-error>
+                </mat-form-field>
+            </div>
         </div>
         <div class="row">
-            <mat-checkbox (click)="toggleTerms()">
-                Li e aceito os termos
-            </mat-checkbox>
-            {{termsAccepted}}
+            <div class="col-sm-12 text-center">
+                <mat-checkbox (click)="toggleTerms()">
+                    Li e aceito os
+                    <a href="">termos</a>
+                </mat-checkbox>
+            </div>
         </div>
 
         <br>
@@ -36,7 +43,5 @@
                 <app-rating></app-rating>
             </div>
         </div>
-
     </div>
-
 </form>

@@ -11,6 +11,8 @@ import { RatingComponent } from '../rating/rating.component';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FirebaseConfig } from '../properties/firebase.config';
+import { AngularFireModule } from 'angularfire2/index';
 
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -36,7 +38,8 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     FormsModule,
     ReactiveFormsModule,
     MatInputModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    AngularFireModule.initializeApp(FirebaseConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
