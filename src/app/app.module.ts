@@ -8,8 +8,6 @@ import { FormComponent } from '../form/form.component';
 import { StarRatingComponent } from '../rating/star-rating/star-rating.component';
 import { ThumbsRatingComponent } from '../rating/thumbs-rating/thumbs-rating.component';
 import { RatingComponent } from '../rating/rating.component';
-import { HeaderComponent } from '../header/header.component';
-import { FooterComponent } from '../footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FirebaseConfig } from '../properties/firebase.config';
 import { AngularFireModule } from 'angularfire2/index';
@@ -31,8 +29,6 @@ const appRoutes: Routes = [
     AppComponent,
     MovieComponent,
     FormComponent,
-    HeaderComponent,
-    FooterComponent,
     StarRatingComponent,
     ThumbsRatingComponent,
     RatingComponent,

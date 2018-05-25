@@ -1,3 +1,4 @@
+<!-- header -->
 <nav class="navbar navbar-dark bg-dark mb-5">
     <a class="navbar-brand" href="#">Vote Filme</a>
     <div class="navbar-expand mr-auto">
@@ -5,7 +6,7 @@
             <a class="nav-item nav-link" routerLink="/home" routerLinkActive="active">Início</a>
             <a class="nav-item nav-link" routerLink="/about" routerLinkActive="active">Sobre</a>
             <a class="nav-item nav-link" routerLink="/contact" routerLinkActive="active">Contato</a>
-            <a class="nav-item nav-link" routerLink="/terms" routerLinkActive="active">Termos de consentimento</a>
+            <a class="nav-item nav-link" routerLink="/terms" routerLinkActive="active">Termo de consentimento</a>
         </div>
     </div>
     <div class="navbar-expand ml-auto navbar-nav">
@@ -16,8 +17,13 @@
         </div>
     </div>
 </nav>
+<!-- content -->
 <router-outlet></router-outlet>
-<app-footer></app-footer>
+<!-- footer -->
 <br>
 <br>
-<br>
+<footer class="footer bg-dark fixed-bottom">
+    <div class="container text-center text-white">
+        2018 <i class="fa fa-copyright"></i> <a class="text-white" href="https://github.com/rponciano"> Rômulo Ponciano</a>
+    </div>
+</footer>
