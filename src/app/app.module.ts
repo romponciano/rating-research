@@ -12,6 +12,7 @@ import { AngularFireModule } from 'angularfire2/index';
 import { TermsComponent} from '../terms/terms.component';
 import { RouterModule, Routes } from '@angular/router';
 import { ThanksComponent } from '../thanks/thanks.component';
+import { ContactComponent } from '../contact/contact.component';
 
 import { MatRadioModule } from '@angular/material/radio';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -23,6 +24,7 @@ const appRoutes: Routes = [
   { path: '', component: FormComponent },
   { path: 'home', component: FormComponent },
   { path: 'terms', component: TermsComponent },
+  { path: 'contact', component: ContactComponent },
   { path: 'thanks', component: ThanksComponent }
 ];
 
@@ -35,7 +37,8 @@ let teste: string;
     FormComponent,
     RatingComponent,
     TermsComponent,
-    ThanksComponent
+    ThanksComponent,
+    ContactComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
