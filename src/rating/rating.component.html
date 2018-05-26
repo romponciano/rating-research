@@ -1,2 +1,11 @@
-<app-star-rating *ngIf="isStar()"></app-star-rating>
-<app-thumbs-rating *ngIf="isThumbs()"></app-thumbs-rating>
+<div *ngIf="isStar()">
+    <img id="0" src="assets/empty-star.png" class="img-fluid inline-block rating" (click)="changeStar(0)" />
+    <img id="1" src="assets/empty-star.png" class="img-fluid inline-block rating" (click)="changeStar(1)" />
+    <img id="2" src="assets/empty-star.png" class="img-fluid inline-block rating" (click)="changeStar(2)" />
+    <img id="3" src="assets/empty-star.png" class="img-fluid inline-block rating" (click)="changeStar(3)" />
+    <img id="4" src="assets/empty-star.png" class="img-fluid inline-block rating" (click)="changeStar(4)" />
+</div>
+<div *ngIf="isThumbs()">
+    <img id="up" src="assets/up-desactivate.png" class="img-fluid inline-block rating" (click)="changeThumb('up')" />
+    <img id="down" src="assets/down-desactivate.png" class="img-fluid inline-block rating thumbDownSpacing" (click)="changeThumb('down')" />
+</div>

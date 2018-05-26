@@ -1,10 +1,17 @@
 import { Rating } from './rating.model';
 
 export class User {
-    public ip: string;
-    public email: string;
-    public ratingType: string;
-    public rates: Rating[];
-
-    constructor() {}
+    constructor(
+        public email: string,
+        public ip: string,
+        public terms: boolean,
+        public ratingType: string,
+        public rates: Rating[]
+    ) {
+        this.email = email;
+        this.ip = ip;
+        this.terms = terms;
+        this.ratingType = ratingType;
+        this.rates = rates;
+    }
 }

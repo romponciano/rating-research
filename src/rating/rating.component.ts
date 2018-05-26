@@ -1,24 +1,77 @@
 import { Component, OnInit } from '@angular/core';
 import { CalcService } from '../services/calc.service';
-
+import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
     selector: 'app-rating',
     templateUrl: './rating.component.html',
-    providers: [CalcService]
+    styleUrls: ['./rating.component.css'],
+    providers: [CalcService, AngularFireDatabase]
 })
 export class RatingComponent implements OnInit {
+    rateType: string;
+    stars: boolean[];
+    thumbUp: boolean;
+    thumbDown: boolean;
     private rateOptions: string[];
-    public rateType: string;
+    private db = this.angularFirebase.database;
 
-    constructor(private calcService: CalcService) { }
+    constructor(
+        private calcService: CalcService,
+        private angularFirebase: AngularFireDatabase
+    ) { }
 
     ngOnInit() {
         this.rateOptions = ['star', 'thumbs'];
+        this.stars = [false, false, false, false, false];
+        this.thumbUp = false;
+        this.thumbDown = false;
         this.rateType = this.calcService.getRandomArrayValue(this.rateOptions);
     }
 
-    public isStar(): boolean { return this.rateOptions[0] === this.rateType; }
-    public isThumbs(): boolean { return this.rateOptions[1] === this.rateType; }
+    isStar(): boolean { return this.rateOptions[0] === this.rateType; }
+    isThumbs(): boolean { return this.rateOptions[1] === this.rateType; }
 
+    changeStar(star: number) {
+        if (true === this.stars[star]) {
+            this.resetStars();
+            return;
+        }
+        this.resetStars();
+        for (let i = 0; i <= star; i++) {
+            this.stars[star] = true;
+            let momentStar = document.getElementById(i.toString()) as HTMLImageElement;
+            momentStar.src = 'assets/full-star.png';
+        }
+    }
+
+    changeThumb(choice: string) {
+        this.resetThumbs();
+        if (choice === 'up') {
+            let thumb = document.getElementById('up') as HTMLImageElement;
+            this.thumbUp = true;
+            thumb.src = 'assets/up-activate.png';
+        } else {
+            let thumb = document.getElementById('down') as HTMLImageElement;
+            this.thumbDown = true;
+            thumb.src = 'assets/down-activate.png';
+        }
+    }
+
+    resetStars() {
+        this.stars = [false, false, false, false, false];
+        for (let i = 0; i < this.stars.length; i++) {
+            let momentStar = document.getElementById(i.toString()) as HTMLImageElement;
+            momentStar.src = 'assets/empty-star.png';
+        }
+    }
+
+    resetThumbs() {
+        let thumb = document.getElementById('up') as HTMLImageElement;
+        thumb.src = 'assets/up-desactivate.png';
+        thumb = document.getElementById('down') as HTMLImageElement;
+        thumb.src = 'assets/down-desactivate.png';
+        this.thumbUp = false;
+        this.thumbDown = false;
+    }
 }

@@ -1,35 +1,79 @@
-import { Component, OnInit  } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { User } from '../models/user.model';
+import { JsonService } from '../services/json.service';
 import { AngularFireDatabase } from 'angularfire2/database';
+import { Rating } from '../models/rating.model';
+import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-form',
     templateUrl: './form.component.html',
     styleUrls: ['./form.component.css'],
-    providers: [AngularFireDatabase]
+    providers: [JsonService, AngularFireDatabase]
 })
-export class FormComponent implements OnInit {
-    public inputEmail: FormControl;
-    public termsAccepted: boolean;
-    private user: User;
+export class FormComponent implements OnInit, OnDestroy {
+    inputEmail: string;
+    termsAccepted: boolean;
+    userIp: string;
+    ratingType: string;
+    ratingList: Rating[];
+    user: User;
+    db = this.angularFire.database;
 
-    ngOnInit() {
-        this.inputEmail = new FormControl('', [
-            Validators.email,
-            Validators.required
-        ]);
+    constructor(
+        private jsonService: JsonService,
+        private angularFire: AngularFireDatabase,
+        private router: Router
+    ) { }
+
+    async ngOnInit() {
         this.termsAccepted = false;
+        this.ratingList = [];
+        await this.jsonService.getIp().then(data => this.userIp = data);
     }
 
-    constructor(private angularFire: AngularFireDatabase) { }
-
-    public toggleTerms() {
-        this.termsAccepted = !this.termsAccepted;
+    ngOnDestroy(): void {
+        this.finishSession();
     }
 
-    public formSubmit() {
-        this.user = new User();
-        this.user.email = this.inputEmail.value;
+    finish($event) {
+        if ($event) {
+            this.router.navigate(['/thanks']);
+        }
+    }
+
+    finishSession() {
+        if (this.termsAccepted === true) {
+            this.user = new User(
+                this.inputEmail,
+                this.userIp,
+                this.termsAccepted,
+                this.ratingType.toString(),
+                this.ratingList
+            );
+            this.createUser(this.user);
+        }
+    }
+
+    receiveRating($event) {
+        this.ratingList.push($event);
+    }
+
+    receiveRatingType($event) {
+        this.ratingType = $event;
+    }
+
+    // ###################################################################
+    public createUser(user: User) {
+        let id = this.getEmailId(user.email);
+        this.db.ref('/users/' + id).set(user);
+    }
+
+    private getOriginalEmail(emailId: string) {
+        return emailId.split('DOTCHANGED').join('.').replace('ATCHANGED', '@');
+    }
+
+    private getEmailId(email: string) {
+        return email.split('.').join('DOTCHANGED').replace('@', 'ATCHANGED');
     }
 }

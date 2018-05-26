@@ -8,16 +8,14 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <mat-form-field class="input-email">
-                    <input aria-describedby="emailHelp" matInput name="email" placeholder="Email" [formControl]="inputEmail">
-                    <mat-error *ngIf="inputEmail.hasError('email') && !inputEmail.hasError('required')">Por favor, insira um email válido.</mat-error>
-                    <mat-error *ngIf="inputEmail.hasError('required')">Insira um email para continuar.</mat-error>
+                    <input aria-describedby="emailHelp" matInput name="email" placeholder="Email" [(ngModel)]="inputEmail" required>
                 </mat-form-field>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 text-center">
-                <mat-checkbox (click)="toggleTerms()">
-                    Li e aceito os <a routerLink="/terms" routerLinkActive="active">termos de consentimento.</a>
+                <mat-checkbox name="terms" [(ngModel)]="termsAccepted">
+                    Li e aceito o <a routerLink="/terms" routerLinkActive="active">termo de consentimento.</a>
                 </mat-checkbox>
             </div>
         </div>
@@ -30,14 +28,11 @@
         </div>
         <div class="row">
             <div class="col-sm-12 text-center">
-                <app-movie></app-movie>
-            </div>
-        </div>
-
-        <br>
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <app-rating></app-rating>
+                <app-movie 
+                    (emitterRating)="receiveRating($event)" 
+                    (emitterRatingType)="receiveRatingType($event)"
+                    (emitterFinish)="finish($event)"
+                ></app-movie>
             </div>
         </div>
     </div>

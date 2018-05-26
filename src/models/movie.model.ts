@@ -1,6 +1,11 @@
 export class Movie {
-    public Title: string;
-    public Poster: string;
-
-    constructor() {}
+    constructor(
+        public id: string,
+        public Title: string,
+        public Poster: string
+    ) {
+        this.id = id;
+        this.Title = Title;
+        this.Poster = Poster;
+    }
 }
