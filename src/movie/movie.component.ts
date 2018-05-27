@@ -38,7 +38,7 @@ export class MovieComponent implements OnInit, AfterViewInit, OnChanges {
     }
 
     ngOnInit() {
-        this.getRandomMovieFromOmdbApi();
+        this.getRantomMovieFromMovieList();
         this.movieChanged = 0;
         this.allFilled = false;
     }
@@ -65,8 +65,15 @@ export class MovieComponent implements OnInit, AfterViewInit, OnChanges {
         this.evaluationInit = new Date();
     }
 
+    getRantomMovieFromMovieList() {
+        this.movie = this.calcService.getRandomArrayValue(
+            this.jSonConfig.movieList
+        );
+        this.evaluationInit = new Date();
+    }
+
     getAnotherMovie() {
-        this.getRandomMovieFromOmdbApi();
+        this.getRantomMovieFromMovieList();
         ++this.movieChanged;
     }
 
@@ -97,7 +104,7 @@ export class MovieComponent implements OnInit, AfterViewInit, OnChanges {
         if (this.rateType === 'star') {
             for (let i = 0; i < this.childRating.stars.length; i++) {
                 if (this.childRating.stars[i]) {
-                    this.rate = i.toString();
+                    this.rate = (i + 1).toString();
                 }
             }
         }

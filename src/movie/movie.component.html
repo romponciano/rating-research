@@ -1,11 +1,11 @@
 <div class="text-center">
-    <div *ngIf="movie?.Title">
+    <div *ngIf="movie.Title">
         <h4>{{movie.Title}}</h4>
-        <img class="img-fluid" src={{movie.Poster}} />
+        <img class="img-fluid max-w" src={{movie.Poster}} />
     </div>
-    <div *ngIf="!movie?.Title">
+    <div *ngIf="!movie.Title">
         <strong>Filme não encontrado. Por favor,
-            <a href="/" (click)="getAnotherMovie()">tente novamente</a>.</strong>
+            <a href="#" (click)="getAnotherMovie()">tente novamente</a>.</strong>
     </div>
     <br>
     <div class="container">

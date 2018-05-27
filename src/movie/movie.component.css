@@ -13,3 +13,7 @@
         float: left;
     }
 }
+
+.max-w {
+    max-width: 300px;
+}
