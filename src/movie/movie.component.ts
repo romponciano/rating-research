@@ -19,6 +19,9 @@ export class MovieComponent implements OnInit, AfterViewInit, OnChanges {
     rateType: string;
     rate: string;
     allFilled: boolean;
+    evaluationInit: Date;
+    evaluationEnd: Date;
+    secondsToVote: string;
     movieChanged = 0;
     @ViewChild(RatingComponent) childRating;
     @Output() emitterRating = new EventEmitter<Rating>();
@@ -50,7 +53,6 @@ export class MovieComponent implements OnInit, AfterViewInit, OnChanges {
         } else {
             this.allFilled = false;
         }
-        console.log(this.terms && this.email.length > 3);
     }
 
     async getRandomMovieFromOmdbApi() {
@@ -60,6 +62,7 @@ export class MovieComponent implements OnInit, AfterViewInit, OnChanges {
             this.movie = new Movie(res.id, res.Title, res.Poster);
             this.movieId = res.Title.toString();
         });
+        this.evaluationInit = new Date();
     }
 
     getAnotherMovie() {
@@ -69,10 +72,18 @@ export class MovieComponent implements OnInit, AfterViewInit, OnChanges {
 
     vote() {
         this.setRateTypeAndValue();
-        let rating = new Rating(this.movie.Title.toString(), this.rate.toString(), new Date());
+        this.evaluationEnd = new Date();
+        this.calcDelayToVote(this.evaluationInit, this.evaluationEnd);
+        let rating = new Rating(this.movie.Title.toString(), this.rate.toString(), this.secondsToVote);
         this.emitterRatingType.emit(this.rateType.toString());
         this.emitterRating.emit(rating);
         this.getAnotherMovie();
+    }
+
+    private calcDelayToVote(init: Date, end: Date) {
+        this.secondsToVote = ((end.getTime() - init.getTime()) / 1000).toString();
+        console.log(end.getTime() - init.getTime());
+        console.log('Segundos: ' + this.secondsToVote);
     }
 
     private setRateTypeAndValue() {
