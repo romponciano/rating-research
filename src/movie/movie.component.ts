@@ -82,8 +82,6 @@ export class MovieComponent implements OnInit, AfterViewInit, OnChanges {
 
     private calcDelayToVote(init: Date, end: Date) {
         this.secondsToVote = ((end.getTime() - init.getTime()) / 1000).toString();
-        console.log(end.getTime() - init.getTime());
-        console.log('Segundos: ' + this.secondsToVote);
     }
 
     private setRateTypeAndValue() {
