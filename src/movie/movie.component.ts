@@ -18,6 +18,7 @@ export class MovieComponent implements OnInit, AfterViewInit {
     movieId: string;
     rateType: string;
     rate: string;
+    movieChanged = 0;
     @ViewChild(RatingComponent) childRating;
     @Output() emitterRating = new EventEmitter<Rating>();
     @Output() emitterRatingType = new EventEmitter<string>();
@@ -32,6 +33,7 @@ export class MovieComponent implements OnInit, AfterViewInit {
 
     ngOnInit() {
         this.getRandomMovieFromOmdbApi();
+        this.movieChanged = 0;
     }
 
     ngAfterViewInit() {
@@ -49,6 +51,7 @@ export class MovieComponent implements OnInit, AfterViewInit {
 
     getAnotherMovie() {
         this.getRandomMovieFromOmdbApi();
+        ++this.movieChanged;
     }
 
     vote() {

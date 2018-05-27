@@ -1,9 +1,9 @@
 <div class="text-center">
-    <div *ngIf="movie">
+    <div *ngIf="movie?.Title">
         <h4>{{movie.Title}}</h4>
         <img class="img-fluid" src={{movie.Poster}} />
     </div>
-    <div *ngIf="!movie">
+    <div *ngIf="!movie?.Title">
         <strong>Filme não encontrado. Por favor, tente novamente.</strong>
     </div>
     <br>
@@ -18,6 +18,6 @@
 <br>
 <div class="row">
     <div class="col-sm-12 text-center">
-        <app-rating></app-rating>
+        <app-rating [movieChangedChild]="movieChanged"></app-rating>
     </div>
 </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { CalcService } from '../services/calc.service';
 import { AngularFireDatabase } from 'angularfire2/database';
 
@@ -8,13 +8,14 @@ import { AngularFireDatabase } from 'angularfire2/database';
     styleUrls: ['./rating.component.css'],
     providers: [CalcService, AngularFireDatabase]
 })
-export class RatingComponent implements OnInit {
+export class RatingComponent implements OnInit, OnChanges {
     rateType: string;
     stars: boolean[];
     thumbUp: boolean;
     thumbDown: boolean;
     private rateOptions: string[];
     private db = this.angularFirebase.database;
+    @Input() movieChangedChild;
 
     constructor(
         private calcService: CalcService,
@@ -27,6 +28,16 @@ export class RatingComponent implements OnInit {
         this.thumbUp = false;
         this.thumbDown = false;
         this.rateType = this.calcService.getRandomArrayValue(this.rateOptions);
+    }
+
+    ngOnChanges(changes: SimpleChanges) {
+        if (this.movieChangedChild > 0) {
+        if (this.isStar()) {
+            this.resetStars();
+        } else {
+            this.resetThumbs();
+        }
+    }
     }
 
     isStar(): boolean { return this.rateOptions[0] === this.rateType; }
