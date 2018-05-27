@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Component, OnInit, OnDestroy, OnChanges, SimpleChanges, Input } from '@angular/core';
 import { User } from '../models/user.model';
 import { JsonService } from '../services/json.service';
 import { AngularFireDatabase } from 'angularfire2/database';
@@ -29,6 +29,7 @@ export class FormComponent implements OnInit, OnDestroy {
     async ngOnInit() {
         this.termsAccepted = false;
         this.ratingList = [];
+        this.inputEmail = '';
         await this.jsonService.getIp().then(data => this.userIp = data);
     }
 

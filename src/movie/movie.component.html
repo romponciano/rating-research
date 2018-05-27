@@ -8,10 +8,19 @@
     </div>
     <br>
     <div class="row">
-        <div class="col-sm-12">
-            <input class="btn btn-danger" id="btnTryAgain" value="Trocar filme" type="submit" (click)='getAnotherMovie()' />
-            <input class="btn btn-primary button-spacing" id="btnFinish" value="Terminar e Salvar" type="submit" (click)="finish()" />
-            <input class="btn btn-success button-spacing" id="btnVote" value="Votar" type="submit" (click)='vote()' />
+        <div class="col-sm-12" matTooltip="Para habilitar, insira um email e aceite os termos.">
+            <button [disabled]="!allFilled" class="btn btn-danger" id="btnTryAgain" value="Trocar filme" type="submit" (click)='getAnotherMovie()'
+                mat-raised-button>
+                Trocar filme
+            </button>
+            <button [disabled]="!allFilled" class="btn btn-primary button-spacing" id="btnFinish" value="Terminar e Salvar" type="submit"
+                (click)="finish()" mat-raised-button>
+                Terminar e Salvar
+            </button>
+            <button [disabled]="!allFilled" class="btn btn-success button-spacing" id="btnVote" value="Votar" type="submit" (click)='vote()'
+                mat-raised-button>
+                Votar
+            </button>
         </div>
     </div>
 </div>
