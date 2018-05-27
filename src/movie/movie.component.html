@@ -4,24 +4,29 @@
         <img class="img-fluid" src={{movie.Poster}} />
     </div>
     <div *ngIf="!movie?.Title">
-        <strong>Filme não encontrado. Por favor, 
-            <a routerLink="/home" routerLinkActive="active">tente novamente</a>.</strong>
+        <strong>Filme não encontrado. Por favor,
+            <a href="/" (click)="getAnotherMovie()">tente novamente</a>.</strong>
     </div>
     <br>
-    <div class="row">
-        <div class="col-sm-12" matTooltip="Para habilitar, insira um email e aceite os termos.">
-            <button [disabled]="!allFilled" class="btn btn-danger" id="btnTryAgain" value="Trocar filme" type="submit" (click)='getAnotherMovie()'
-                mat-raised-button>
-                Trocar filme
-            </button>
-            <button [disabled]="!allFilled" class="btn btn-primary button-spacing" id="btnFinish" value="Terminar e Salvar" type="submit"
-                (click)="finish()" mat-raised-button>
-                Terminar e Salvar
-            </button>
-            <button [disabled]="!allFilled" class="btn btn-success button-spacing" id="btnVote" value="Votar" type="submit" (click)='vote()'
-                mat-raised-button>
-                Votar
-            </button>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12" matTooltip="Para habilitar, insira um email e aceite os termos.">
+                <button [disabled]="!allFilled" class="btn btn-danger btn-right" id="btnTryAgain" value="Trocar filme" type="submit" (click)='getAnotherMovie()'
+                    mat-raised-button>
+                    Trocar filme
+                </button>
+            </div>
+            <div class="col-md-4 col-sm-12" matTooltip="Para habilitar, insira um email e aceite os termos.">
+                <button [disabled]="!allFilled" class="btn btn-primary" id="btnFinish" value="Terminar e Salvar" type="submit" (click)="finish()"
+                    mat-raised-button>
+                    Terminar e Salvar
+                </button>
+            </div>
+            <div class="col-md-4 col-sm-12" matTooltip="Para habilitar, insira um email e aceite os termos.">
+                <button [disabled]="!allFilled" class="btn btn-success btn-left" id="btnVote" value="Votar" type="submit" (click)='vote()' mat-raised-button>
+                    Votar
+                </button>
+            </div>
         </div>
     </div>
 </div>

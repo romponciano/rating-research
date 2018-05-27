@@ -1,12 +1,11 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { CalcService } from '../services/calc.service';
-import { AngularFireDatabase } from 'angularfire2/database';
 
 @Component({
     selector: 'app-rating',
     templateUrl: './rating.component.html',
     styleUrls: ['./rating.component.css'],
-    providers: [CalcService, AngularFireDatabase]
+    providers: [CalcService]
 })
 export class RatingComponent implements OnInit, OnChanges {
     rateType: string;
@@ -14,13 +13,9 @@ export class RatingComponent implements OnInit, OnChanges {
     thumbUp: boolean;
     thumbDown: boolean;
     private rateOptions: string[];
-    private db = this.angularFirebase.database;
     @Input() movieChangedChild;
 
-    constructor(
-        private calcService: CalcService,
-        private angularFirebase: AngularFireDatabase
-    ) { }
+    constructor(private calcService: CalcService) { }
 
     ngOnInit() {
         this.rateOptions = ['star', 'thumbs'];

@@ -1,3 +1,15 @@
-.button-spacing {
-    margin-left: 100px;
+@media screen and (max-width: 769px) {
+    .btn {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .btn-right {
+        float: right;
+    }
+
+    .btn-left {
+        float: left;
+    }
 }
