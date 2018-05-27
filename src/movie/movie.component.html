@@ -4,7 +4,8 @@
         <img class="img-fluid" src={{movie.Poster}} />
     </div>
     <div *ngIf="!movie?.Title">
-        <strong>Filme não encontrado. Por favor, tente novamente.</strong>
+        <strong>Filme não encontrado. Por favor, 
+            <a routerLink="/home" routerLinkActive="active">tente novamente</a>.</strong>
     </div>
     <br>
     <div class="row">
