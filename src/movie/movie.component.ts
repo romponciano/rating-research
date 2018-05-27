@@ -73,6 +73,8 @@ export class MovieComponent implements OnInit, AfterViewInit, OnChanges {
     }
 
     getAnotherMovie() {
+        let deleteMovie = this.jSonConfig.movieList.indexOf(this.movie);
+        this.jSonConfig.movieList.splice(deleteMovie, 1);
         this.getRantomMovieFromMovieList();
         ++this.movieChanged;
     }
