@@ -1,20 +1,25 @@
-.thumbDownSpacing {
-    margin-top: 45px;
-    margin-left: 45px;
-}
-
 @media screen and (min-width: 770px) {
     .rating {
         max-width: calc(100%/6);
+    }
+
+    .thumbDownSpacing {
+        margin-top: 45px;
+        margin-left: 45px;
     }
 }
 
 @media screen and (max-width: 769px) {
     .thumbs {
-        max-width: calc(100%/7);
+        max-width: calc(100%/5);
     }
 
     .stars {
-        max-width: calc(100%/12);
+        max-width: calc(100%/6);
+    }
+
+    .thumbDownSpacing {
+        margin-top: 35px;
+        margin-left: 45px;
     }
 }

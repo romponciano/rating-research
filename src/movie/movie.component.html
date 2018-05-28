@@ -17,19 +17,19 @@
                         <app-rating [movieChangedChild]="movieChanged"></app-rating>
                     </div>
                     <div class="col-sm-12 mb-5">
-                        <button [disabled]="!allFilled" class="btn btn-success btn-left" id="btnVote" value="Avaliar" type="submit" (click)='vote()'
+                        <button [disabled]="!allFilled" class="btn btn-success btn-lg" id="btnVote" value="Avaliar" type="submit" (click)='vote()'
                             mat-raised-button>
                             Avaliar
                         </button>
                     </div>
                     <div class="col-sm-12 mb-5">
-                        <button [disabled]="!allFilled" class="btn btn-danger btn-right" id="btnTryAgain" value="Trocar filme" type="submit" (click)='getAnotherMovie()'
+                        <button [disabled]="!allFilled" class="btn btn-danger btn-lg" id="btnTryAgain" value="Trocar filme" type="submit" (click)='getAnotherMovie()'
                             mat-raised-button>
                             Trocar filme
                         </button>
                     </div>
                     <div class="col-sm-12">
-                        <button [disabled]="!allFilled" class="btn btn-primary" id="btnFinish" value="Terminar e Salvar" type="submit" (click)="finish()"
+                        <button [disabled]="!allFilled" class="btn btn-primary btn-lg" id="btnFinish" value="Terminar e Salvar" type="submit" (click)="finish()"
                             mat-raised-button>
                             Terminar e Salvar
                         </button>
