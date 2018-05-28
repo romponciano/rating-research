@@ -3,6 +3,18 @@
     margin-left: 45px;
 }
 
-.rating {
-    max-width: calc(100%/11);
+@media screen and (min-width: 770px) {
+    .rating {
+        max-width: calc(100%/11);
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .thumbs {
+        max-width: calc(100%/7);
+    }
+
+    .stars {
+        max-width: calc(100%/12);
+    }
 }
