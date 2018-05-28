@@ -1,38 +1,42 @@
-<div class="text-center">
-    <div *ngIf="movie.Title">
-        <h4>{{movie.Title}}</h4>
-        <img class="img-fluid max-w" src={{movie.Poster}} />
-    </div>
-    <div *ngIf="!movie.Title">
-        <strong>Filme não encontrado. Por favor,
-            <a href="#" (click)="getAnotherMovie()">tente novamente</a>.</strong>
-    </div>
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-12" matTooltip="Para habilitar, insira um email e aceite os termos.">
-                <button [disabled]="!allFilled" class="btn btn-danger btn-right" id="btnTryAgain" value="Trocar filme" type="submit" (click)='getAnotherMovie()'
-                    mat-raised-button>
-                    Trocar filme
-                </button>
+<div class="container">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-md-6">
+            <div *ngIf="movie.Title">
+                <h4>{{movie.Title}}</h4>
+                <img class="img-fluid max-sz" src={{movie.Poster}} />
             </div>
-            <div class="col-md-4 col-sm-12" matTooltip="Para habilitar, insira um email e aceite os termos.">
-                <button [disabled]="!allFilled" class="btn btn-primary" id="btnFinish" value="Terminar e Salvar" type="submit" (click)="finish()"
-                    mat-raised-button>
-                    Terminar e Salvar
-                </button>
-            </div>
-            <div class="col-md-4 col-sm-12" matTooltip="Para habilitar, insira um email e aceite os termos.">
-                <button [disabled]="!allFilled" class="btn btn-success btn-left" id="btnVote" value="Votar" type="submit" (click)='vote()' mat-raised-button>
-                    Votar
-                </button>
+            <div *ngIf="!movie.Title">
+                <strong>Filme não encontrado. Por favor,
+                    <a href="#" (click)="getAnotherMovie()">tente novamente</a>.</strong>
             </div>
         </div>
-    </div>
-</div>
-<br>
-<div class="row">
-    <div class="col-sm-12 text-center">
-        <app-rating [movieChangedChild]="movieChanged"></app-rating>
+        <div class="col-md-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 mb-5">
+                        <app-rating [movieChangedChild]="movieChanged"></app-rating>
+                    </div>
+                    <div class="col-sm-12 mb-5">
+                        <button [disabled]="!allFilled" class="btn btn-success btn-left" id="btnVote" value="Avaliar" type="submit" (click)='vote()'
+                            mat-raised-button>
+                            Avaliar
+                        </button>
+                    </div>
+                    <div class="col-sm-12 mb-5">
+                        <button [disabled]="!allFilled" class="btn btn-danger btn-right" id="btnTryAgain" value="Trocar filme" type="submit" (click)='getAnotherMovie()'
+                            mat-raised-button>
+                            Trocar filme
+                        </button>
+                    </div>
+                    <div class="col-sm-12">
+                        <button [disabled]="!allFilled" class="btn btn-primary" id="btnFinish" value="Terminar e Salvar" type="submit" (click)="finish()"
+                            mat-raised-button>
+                            Terminar e Salvar
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
