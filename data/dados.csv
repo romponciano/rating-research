@@ -1,0 +1,1323 @@
+﻿userid;ratingType;movie;rate;duration
+1;thumbs;Friday the 13th;thumbDown;13,754
+1;thumbs;The Conjuring;thumbDown;2,946
+1;thumbs;Black Panther;thumbUp;4,644
+1;thumbs;The Hunger Games: Catching Fire;thumbUp;3,811
+2;star;Fast & Furious 6;4;27,632
+2;star;The Lion King;5;4,129
+2;star;The Wolf of Wall Street;5;2,659
+2;star;American Pie;3;2,621
+2;star;50 First Dates;4;5,914
+2;star;Cars;4;5,558
+2;star;Edward Scissorhands;5;2,65
+2;star;Star Trek;5;6,389
+2;star;War for the Planet of the Apes;5;3,916
+2;star;The Shape of Water;4;4,309
+2;star;Maleficent;2;4,031
+2;star;The Blue Lagoon;3;3,43
+2;star;Toy Story 3;5;2,208
+2;star;The Twilight Saga: New Moon;3;12,197
+2;star;Ted;1;3,792
+2;star;Batman v Superman: Dawn of Justice;3;11,129
+2;star;Twilight;3;8,344
+2;star;Minha MÃ£e Ã© uma PeÃ§a: O Filme;5;10,304
+2;star;Black Panther;5;4,635
+2;star;Interstellar;5;14,759
+2;star;Star Wars: The Force Awakens;4;6,24
+2;star;Titanic;4;4,061
+2;star;Skyfall;4;3,019
+2;star;Guardians of the Galaxy;4;5,615
+2;star;Bruce Almighty;4;4,13
+2;star;Fantastic Beasts and Where to Find Them;4;4,977
+2;star;Corpse Bride;4;5,26
+2;star;Despicable Me;3;7,998
+2;star;I Am Legend;3;5,944
+2;star;Miss Peregrine's Home for Peculiar Children;3;8,911
+2;star;Frozen;1;5,603
+2;star;The Hunger Games: Catching Fire;4;3,642
+2;star;Captain America: Civil War;5;2,958
+2;star;Avatar;5;1,791
+2;star;Shrek;5;2,538
+2;star;Harry Potter and the Deathly Hallows: Part 2;5;4,767
+2;star;The Hangover;3;3,451
+2;star;The Conjuring;5;6,602
+2;star;O Auto da Compadecida;4;4,85
+2;star;Troy;3;6,638
+2;star;The Dark Knight;5;6,646
+2;star;Iron Man;4;6,304
+2;star;Zootopia;2;3,878
+2;star;The Karate Kid;3;7,552
+2;star;Justice League;3;5,328
+2;star;Spider-Man: Homecoming;3;4,002
+2;star;Finding Nemo;5;5,262
+2;star;Hotel Transylvania;5;3,658
+2;star;Paranormal Activity;3;6,65
+2;star;Suicide Squad;1;5,26
+2;star;The Matrix;4;5,831
+2;star;The Incredibles;5;4,413
+2;star;The Lord of the Rings: The Return of the King;5;3,536
+2;star;Jurassic Park;5;2,498
+2;star;Dear John;3;3,917
+2;star;Thor: Ragnarok;4;2,662
+2;star;Avengers: Infinity War;5;2,382
+2;star;Gravity;5;2,779
+2;star;300;2;3,634
+2;star;Deadpool;4;5,718
+2;star;Ice Age;5;7,045
+2;star;The Twilight Saga: Eclipse;3;10,006
+2;star;The Passion of the Christ;4;3,137
+2;star;Monsters, Inc,;5;3,838
+2;star;John Wick;2;8,703
+2;star;Rio;2;4,683
+2;star;Elite Squad;4;2,959
+2;star;Me Before You;4;7,264
+2;star;Se Eu Fosse VocÃª;4;4,381
+2;star;It;4;3,034
+2;star;Pirates of the Caribbean: The Curse of the Black Pearl;4;15,101
+2;star;The Hobbit: The Desolation of Smaug;5;3,03
+2;star;Click;5;1,811
+3;thumbs;Justice League;thumbUp;14,263
+3;thumbs;Se Eu Fosse VocÃª;thumbDown;5,185
+3;thumbs;O Auto da Compadecida;thumbDown;1,599
+4;star;Sharknado;4;71,29
+4;star;Thor: Ragnarok;5;6,089
+4;star;Paranormal Activity;4;4,488
+4;star;Iron Man;5;2,983
+4;star;The Hobbit: The Desolation of Smaug;5;3,318
+4;star;Friday the 13th;3;6,908
+4;star;Harry Potter and the Deathly Hallows: Part 2;5;10,295
+4;star;The Shape of Water;5;2,974
+4;star;Black Panther;5;2,415
+4;star;Skyfall;5;1,606
+4;star;Ted;4;2,247
+4;star;Minha MÃ£e Ã© uma PeÃ§a: O Filme;5;2,164
+4;star;Fast & Furious 6;5;1,528
+4;star;Beauty and the Beast;5;2,549
+4;star;It;3;2,306
+4;star;Deadpool;5;1,679
+4;star;Ice Age;5;3,174
+4;star;Guardians of the Galaxy;5;2,357
+4;star;Fight Clube;5;2,59
+4;star;The Incredibles;5;6,175
+4;star;Finding Nemo;5;1,436
+4;star;War for the Planet of the Apes;5;2,424
+4;star;Titanic;5;1,538
+4;star;Monsters, Inc,;5;1,138
+4;star;The Blue Lagoon;5;1,86
+4;star;Cars;5;1,554
+4;star;The Matrix;5;1,479
+4;star;Maleficent;5;1,587
+4;star;Captain America: Civil War;5;1,388
+4;star;Justice League;5;3,768
+4;star;Avatar;5;1,821
+4;star;Hotel Transylvania;5;1,738
+4;star;Batman v Superman: Dawn of Justice;5;1,621
+4;star;Star Wars: The Force Awakens;5;2,523
+4;star;The Hangover;5;2,316
+4;star;Bruce Almighty;5;1,962
+4;star;The Wolf of Wall Street;5;1,679
+4;star;American Pie;5;3,094
+4;star;The Fate of the Furios;5;1,656
+4;star;The Passion of the Christ;5;1,68
+4;star;The Lion King;5;2,296
+4;star;Avengers: Infinity War;5;1,235
+4;star;The Hunger Games: Catching Fire;5;2,198
+4;star;The Karate Kid;5;2,649
+4;star;The Lord of the Rings: The Return of the King;5;1,188
+4;star;Dear John;5;2,246
+4;star;Jurassic Park;5;1,078
+4;star;Gravity;5;1,721
+4;star;I Am Legend;5;2,031
+4;star;Freddy vs, Jason;5;3,402
+4;star;Fantastic Beasts and Where to Find Them;5;2,069
+4;star;Zootopia;5;2,031
+4;star;Troy;5;1,954
+4;star;The Dark Knight;5;1,437
+4;star;Fifty Shades of Grey;5;2,213
+4;star;John Wick;5;3,083
+4;star;Pirates of the Caribbean: The Curse of the Black Pearl;5;36,331
+4;star;Shrek;5;1,446
+4;star;Toy Story 3;5;4,865
+4;star;Elite Squad;5;1,686
+4;star;Me Before You;5;2,339
+4;star;Rio;5;1,763
+4;star;Twilight;5;1,972
+4;star;50 First Dates;5;3,302
+5;star;Click;4;13,044
+5;star;Pirates of the Caribbean: The Curse of the Black Pearl;3;1,783
+5;star;Maleficent;4;1,391
+5;star;Avatar;3;1,814
+5;star;The Incredibles;4;1,773
+5;star;Beauty and the Beast;5;1,82
+6;star;The Twilight Saga: New Moon;1;32,1
+6;star;Shrek;5;8,922
+6;star;Avengers: Infinity War;5;2,081
+6;star;Fast & Furious 6;3;3,017
+6;star;Elite Squad;5;1,968
+6;star;Miss Peregrine's Home for Peculiar Children;2;12,985
+6;star;The Lord of the Rings: The Return of the King;5;2,201
+6;star;Titanic;1;1,753
+6;star;The Twilight Saga: Eclipse;1;1,807
+6;star;The Hunger Games: Catching Fire;1;3,149
+6;star;War for the Planet of the Apes;4;9,019
+6;star;Rio;3;4,634
+6;star;It;5;1,778
+6;star;O Auto da Compadecida;5;2,33
+6;star;Captain America: Civil War;5;1,454
+6;star;The Blue Lagoon;1;2,534
+6;star;Jurassic Park;5;2,99
+6;star;Corpse Bride;3;4,341
+6;star;Paranormal Activity;2;8,222
+6;star;Spider-Man: Homecoming;5;4,353
+6;star;Ice Age;5;4,609
+6;star;Interstellar;5;2,358
+6;star;Frozen;5;4,994
+6;star;Fantastic Beasts and Where to Find Them;5;6,034
+6;star;Despicable Me;2;9,781
+6;star;I Am Legend;4;18,467
+6;star;The Hobbit: The Desolation of Smaug;3;3,714
+6;star;Minha MÃ£e Ã© uma PeÃ§a: O Filme;3;3,001
+6;star;American Pie;5;2,402
+6;star;Ted;5;1,816
+6;star;Hotel Transylvania;5;6,5
+6;star;Zootopia;5;6,734
+7;star;The Hobbit: The Desolation of Smaug;2;13381,294
+7;star;Finding Nemo;5;3,032
+7;star;The Matrix;4;2,608
+7;star;Minha MÃ£e Ã© uma PeÃ§a: O Filme;5;2,842
+7;star;Avatar;4;2,686
+7;star;The Passion of the Christ;5;3,052
+7;star;Troy;3;3,529
+7;star;300;3;2,877
+7;star;Monsters, Inc,;5;2,24
+7;star;The Shape of Water;5;2,448
+7;star;Zootopia;5;0,163
+7;star;Elite Squad;4;2,477
+7;star;Hotel Transylvania;5;4,016
+7;star;The Twilight Saga: Eclipse;2;2,923
+7;star;Fantastic Beasts and Where to Find Them;5;4,38
+7;star;The Twilight Saga: New Moon;2;3,059
+7;star;Iron Man;5;2,602
+7;star;Se Eu Fosse VocÃª;5;3,272
+7;star;The Karate Kid;3;3,354
+7;star;Shrek;4;1,674
+7;star;Click;3;1,797
+7;star;Ted;4;2,344
+7;star;Cars;3;4,826
+7;star;Spider-Man: Homecoming;4;2,678
+8;star;Titanic;2;5,632
+8;star;Suicide Squad;3;9,2
+8;star;The Passion of the Christ;4;4,162
+8;star;50 First Dates;4;3,916
+8;star;Bruce Almighty;4;3,68
+8;star;Interstellar;5;2,421
+8;star;Freddy vs, Jason;4;7,402
+8;star;Paranormal Activity;4;7,508
+8;star;Deadpool;5;1,773
+8;star;The Twilight Saga: Eclipse;2;6,881
+8;star;Iron Man;4;2,85
+8;star;The Twilight Saga: New Moon;1;2,417
+8;star;The Lord of the Rings: The Return of the King;4;6,904
+8;star;Final Destination;3;7,639
+8;star;Guardians of the Galaxy;4;2,687
+8;star;Justice League;3;4,461
+8;star;Monsters, Inc,;3;2,45
+8;star;The Wolf of Wall Street;5;2,427
+8;star;Harry Potter and the Deathly Hallows: Part 2;5;2,725
+8;star;Skyfall;5;1,918
+8;star;Click;3;2,108
+8;star;Fight Clube;5;4,426
+8;star;American Pie;3;2,494
+8;star;Se Eu Fosse VocÃª;3;2,227
+8;star;The Matrix;5;2,089
+9;thumbs;The Lion King;thumbUp;2607,758
+9;thumbs;Pirates of the Caribbean: The Curse of the Black Pearl;thumbUp;5,083
+9;thumbs;Rio;thumbUp;2,031
+9;thumbs;Toy Story 3;thumbUp;1,495
+9;thumbs;Black Panther;thumbUp;2,056
+9;thumbs;Frozen;thumbUp;2,537
+9;thumbs;The Hobbit: The Desolation of Smaug;thumbUp;1,446
+9;thumbs;Skyfall;thumbUp;1,389
+9;thumbs;Twilight;thumbDown;1,569
+10;thumbs;Thor: Ragnarok;thumbUp;18,842
+10;thumbs;Miss Peregrine's Home for Peculiar Children;thumbUp;3,399
+10;thumbs;Star Wars: The Force Awakens;thumbUp;3,168
+11;star;The Hangover;3;10,161
+11;star;Beauty and the Beast;5;2,909
+11;star;The Wolf of Wall Street;2;1,853
+11;star;The Incredibles;3;1,511
+11;star;Fight Clube;1;1,929
+11;star;Justice League;3;1,602
+11;star;Rio;4;1,718
+11;star;Maleficent;3;1,604
+11;star;Spider-Man: Homecoming;5;1,227
+11;star;Suicide Squad;4;1,348
+11;star;Corpse Bride;5;1,428
+11;star;Elite Squad;2;2,027
+11;star;Click;1;1,944
+12;thumbs;300;thumbUp;11,289
+12;thumbs;Avengers: Infinity War;thumbUp;1,449
+12;thumbs;Captain America: Civil War;thumbUp;2,379
+12;thumbs;The Conjuring;thumbDown;2,613
+13;star;The Lego Movie;5;28,786
+13;star;Fantastic Beasts and Where to Find Them;5;8,338
+13;star;Dear John;4;1,973
+13;star;La La Land;3;1,646
+13;star;Edward Scissorhands;5;1,761
+13;star;Batman v Superman: Dawn of Justice;5;1,576
+13;star;Me Before You;5;1,289
+13;star;Titanic;5;1,369
+13;star;Frozen;5;1,524
+13;star;Twilight;5;1,526
+13;star;Avatar;5;1,29
+14;star;Titanic;3;14,297
+14;star;The Dark Knight;4;5,135
+14;star;O Auto da Compadecida;4;15,164
+14;star;Shrek;4;21,308
+14;star;50 First Dates;3;3,184
+14;star;Se Eu Fosse VocÃª;2;5,284
+14;star;Deadpool;4;3,711
+14;star;Skyfall;3;2,814
+14;star;La La Land;5;4,268
+14;star;Avatar;4;10,879
+14;star;Guardians of the Galaxy Vol, 2;5;2,187
+14;star;The Matrix;5;2,707
+14;star;Ted;3;2,441
+14;star;The Lord of the Rings: The Two Towers;5;16,376
+14;star;Black Panther;3;5,72
+14;star;The Hangover;3;3,644
+14;star;Edward Scissorhands;4;5,236
+15;thumbs;Pirates of the Caribbean: The Curse of the Black Pearl;thumbUp;10,544
+15;thumbs;Guardians of the Galaxy;thumbUp;11,159
+15;thumbs;Cars;thumbDown;8,085
+15;thumbs;Click;thumbUp;3,962
+15;thumbs;Toy Story 3;thumbDown;2,977
+15;thumbs;The Hangover;thumbUp;3,01
+15;thumbs;The Hunger Games: Catching Fire;thumbDown;2,812
+15;thumbs;Iron Man;thumbUp;2,22
+15;thumbs;Harry Potter and the Deathly Hallows: Part 2;thumbUp;2,506
+15;thumbs;300;thumbUp;2,351
+15;thumbs;Captain America: Civil War;thumbUp;2,119
+16;thumbs;Batman v Superman: Dawn of Justice;thumbUp;12,138
+16;thumbs;Rio;thumbUp;10,135
+16;thumbs;Se Eu Fosse VocÃª;thumbUp;4,253
+16;thumbs;The Lego Movie;thumbUp;5,001
+16;thumbs;Cars;thumbUp;1,167
+16;thumbs;Zootopia;thumbUp;0,686
+16;thumbs;Suicide Squad;thumbUp;7,067
+16;thumbs;Frozen;thumbUp;3,214
+16;thumbs;American Pie;thumbUp;1,569
+16;thumbs;Titanic;thumbUp;1,521
+16;thumbs;The Fate of the Furios;thumbUp;2,524
+16;thumbs;Twilight;thumbUp;1,653
+16;thumbs;Guardians of the Galaxy;thumbUp;1,456
+16;thumbs;Gravity;thumbUp;1,151
+16;thumbs;Star Wars: The Force Awakens;thumbUp;1,76
+16;thumbs;Hotel Transylvania;thumbUp;1,487
+16;thumbs;Avengers: Infinity War;thumbUp;1,278
+16;thumbs;Ted;thumbUp;0,92
+16;thumbs;Jurassic Park;thumbUp;0,862
+16;thumbs;Freddy vs, Jason;thumbUp;1,034
+16;thumbs;Ice Age;thumbUp;0,869
+16;thumbs;Iron Man;thumbUp;1,864
+16;thumbs;Spider-Man: Homecoming;thumbUp;0,944
+16;thumbs;Deadpool;thumbUp;0,86
+16;thumbs;Me Before You;thumbUp;1,472
+16;thumbs;Fantastic Beasts and Where to Find Them;thumbUp;2,18
+16;thumbs;Dear John;thumbUp;1,095
+16;thumbs;Fast & Furious 6;thumbUp;0,851
+16;thumbs;War for the Planet of the Apes;thumbUp;0,996
+16;thumbs;Justice League;thumbUp;1,669
+16;thumbs;The Dark Knight;thumbUp;1,221
+16;thumbs;300;thumbUp;0,717
+16;thumbs;The Lord of the Rings: The Return of the King;thumbUp;1,295
+16;thumbs;The Passion of the Christ;thumbUp;0,786
+16;thumbs;Edward Scissorhands;thumbUp;0,477
+16;thumbs;Beauty and the Beast;thumbUp;0,4
+16;thumbs;The Matrix;thumbUp;0,718
+16;thumbs;Toy Story 3;thumbUp;0,369
+16;thumbs;Friday the 13th;thumbUp;0,358
+16;thumbs;Troy;thumbUp;0,384
+16;thumbs;Sharknado;thumbUp;0,352
+16;thumbs;Interstellar;thumbUp;0,675
+17;star;Suicide Squad;2;148,327
+17;star;The Hunger Games: Catching Fire;1;34,159
+17;star;The Karate Kid;5;12,835
+17;star;Monsters, Inc,;5;31,423
+17;star;Pirates of the Caribbean: The Curse of the Black Pearl;3;20,128
+17;star;Rio;2;3,92
+17;star;Ice Age;4;8,27
+17;star;Finding Nemo;5;2,632
+17;star;The Twilight Saga: New Moon;1;2,984
+17;star;Fantastic Beasts and Where to Find Them;2;5,023
+17;star;Friday the 13th;1;4,551
+17;star;O Auto da Compadecida;5;50,704
+17;star;50 First Dates;5;85,488
+17;star;Avengers: Infinity War;5;2,727
+17;star;Iron Man;5;1,928
+17;star;Skyfall;1;3,961
+17;star;Despicable Me;3;3,543
+17;star;Harry Potter and the Deathly Hallows: Part 2;2;2,104
+17;star;The Shape of Water;1;2,344
+17;star;Jurassic Park;1;3,008
+17;star;Cars;3;2,6
+17;star;I Am Legend;2;2,728
+17;star;Thor: Ragnarok;5;3,199
+17;star;Maleficent;1;3,154
+17;star;Toy Story 3;4;1,927
+17;star;Beauty and the Beast;1;2,903
+17;star;Click;3;2,225
+17;star;Spider-Man: Homecoming;4;2,72
+17;star;Star Wars: The Force Awakens;3;17,256
+17;star;Paranormal Activity;1;2,856
+17;star;Se Eu Fosse VocÃª;1;1,984
+17;star;Ted;2;1,911
+17;star;Gravity;1;1,88
+17;star;The Blue Lagoon;1;2,231
+17;star;The Incredibles;5;2,728
+17;star;Sharknado;1;2,4
+17;star;The Lego Movie;1;1,689
+18;thumbs;Dear John;thumbUp;71,762
+18;thumbs;The Lego Movie;thumbUp;6,487
+18;thumbs;Bruce Almighty;thumbUp;3,025
+18;thumbs;Freddy vs, Jason;thumbUp;4,118
+18;thumbs;The Blue Lagoon;thumbUp;4,81
+18;thumbs;Suicide Squad;thumbDown;4,349
+18;thumbs;Fifty Shades of Grey;thumbUp;7,218
+18;thumbs;Paranormal Activity;thumbDown;5,413
+18;thumbs;Maleficent;thumbDown;2,973
+18;thumbs;The Dark Knight;thumbUp;2,375
+18;thumbs;Deadpool;thumbUp;3,044
+18;thumbs;The Incredibles;thumbUp;1,854
+18;thumbs;Skyfall;thumbUp;1,801
+18;thumbs;John Wick;thumbUp;1,547
+18;thumbs;The Karate Kid;thumbUp;1,756
+18;thumbs;Thor: Ragnarok;thumbUp;1,187
+18;thumbs;Star Wars: The Force Awakens;thumbDown;1,765
+18;thumbs;Beauty and the Beast;thumbUp;1,907
+19;thumbs;Suicide Squad;thumbUp;40,131
+19;thumbs;The Hobbit: The Desolation of Smaug;thumbUp;1,568
+19;thumbs;Dear John;thumbDown;1,483
+20;thumbs;Jurassic Park;thumbDown;545,63
+20;thumbs;The Lord of the Rings: The Return of the King;thumbUp;3,08
+20;thumbs;Thor: Ragnarok;thumbUp;3,236
+20;thumbs;Finding Nemo;thumbUp;51,748
+20;thumbs;Hotel Transylvania;thumbDown;4,279
+20;thumbs;The Avengers;thumbUp;5,084
+20;thumbs;Ted;thumbUp;3,237
+20;thumbs;La La Land;thumbUp;2,099
+20;thumbs;Guardians of the Galaxy;thumbUp;4,564
+20;thumbs;Elite Squad;thumbUp;4,139
+20;thumbs;Maleficent;thumbUp;3,276
+20;thumbs;Minha MÃ£e Ã© uma PeÃ§a: O Filme;thumbDown;4,044
+20;thumbs;The Karate Kid;thumbDown;6,62
+20;thumbs;Titanic;thumbDown;3,753
+20;thumbs;Avatar;thumbUp;4,368
+21;thumbs;Guardians of the Galaxy;thumbUp;13,587
+21;thumbs;The Shape of Water;thumbDown;3,099
+21;thumbs;Monsters, Inc,;thumbUp;2,6
+21;thumbs;Twilight;thumbDown;1,388
+22;thumbs;Spider-Man: Homecoming;thumbUp;9,514
+22;thumbs;Fantastic Beasts and Where to Find Them;thumbUp;1,98
+22;thumbs;The Matrix;thumbDown;2,146
+22;thumbs;American Pie;thumbDown;2,88
+23;star;War for the Planet of the Apes;5;11,95
+23;star;O Auto da Compadecida;5;3,202
+23;star;Paranormal Activity;2;3,388
+23;star;Jurassic Park;4;3,233
+23;star;Elite Squad;4;2,662
+23;star;Titanic;4;2,649
+23;star;The Hangover;2;1,888
+23;star;300;4;3,48
+23;star;I Am Legend;5;3,424
+23;star;Black Panther;5;4,512
+23;star;The Lord of the Rings: The Return of the King;5;1,641
+23;star;The Twilight Saga: New Moon;1;2,43
+23;star;Skyfall;4;2,032
+23;star;The Hunger Games: Catching Fire;5;3,368
+23;star;The Wolf of Wall Street;5;11,912
+23;star;Star Wars: The Force Awakens;4;8,242
+23;star;Ice Age;4;2,326
+23;star;Interstellar;4;4,776
+24;thumbs;Zootopia;thumbDown;14,667
+24;thumbs;The Lego Movie;thumbDown;1,543
+24;thumbs;The Passion of the Christ;thumbDown;1,209
+24;thumbs;The Blue Lagoon;thumbDown;4,436
+24;thumbs;The Lord of the Rings: The Return of the King;thumbUp;1,897
+24;thumbs;Dear John;thumbDown;2,147
+24;thumbs;Twilight;thumbDown;2,676
+24;thumbs;Avengers: Infinity War;thumbUp;1,279
+25;thumbs;Skyfall;thumbUp;14,736
+25;thumbs;Avatar;thumbUp;1,43
+25;thumbs;Troy;thumbDown;1,869
+26;thumbs;Captain America: Civil War;thumbDown;57,97
+26;thumbs;Bruce Almighty;thumbDown;10,252
+26;thumbs;Click;thumbDown;2,877
+26;thumbs;The Karate Kid;thumbUp;6,405
+26;thumbs;300;thumbUp;6,686
+26;thumbs;Deadpool;thumbUp;6,221
+26;thumbs;Dear John;thumbDown;3,524
+26;thumbs;The Matrix;thumbUp;2,682
+26;thumbs;Friday the 13th;thumbUp;3,263
+26;thumbs;Skyfall;thumbUp;3,386
+26;thumbs;Corpse Bride;thumbUp;2,613
+26;thumbs;It;thumbUp;2,081
+26;thumbs;Hotel Transylvania;thumbUp;4,103
+26;thumbs;Toy Story 3;thumbUp;2,691
+26;thumbs;Fight Clube;thumbUp;4,839
+26;thumbs;The Passion of the Christ;thumbUp;3,607
+26;thumbs;The Hunger Games: Catching Fire;thumbDown;4,475
+26;thumbs;The Hangover;thumbUp;5,158
+26;thumbs;O Auto da Compadecida;thumbUp;3,22
+26;thumbs;The Conjuring;thumbUp;2,821
+26;thumbs;Ice Age;thumbUp;2,586
+26;thumbs;Avatar;thumbUp;3,715
+26;thumbs;I Am Legend;thumbUp;2,012
+26;thumbs;Se Eu Fosse VocÃª;thumbUp;4,355
+26;thumbs;The Wolf of Wall Street;thumbUp;4,008
+26;thumbs;Miss Peregrine's Home for Peculiar Children;thumbDown;10,02
+26;thumbs;Finding Nemo;thumbDown;1,968
+26;thumbs;Cars;thumbDown;0,193
+26;thumbs;Paranormal Activity;thumbUp;4,031
+26;thumbs;Edward Scissorhands;thumbUp;3,198
+26;thumbs;Titanic;thumbUp;1,899
+26;thumbs;The Lion King;thumbUp;3,647
+26;thumbs;Final Destination;thumbUp;5,236
+26;thumbs;Interstellar;thumbUp;3,88
+26;thumbs;Frozen;thumbUp;2,522
+26;thumbs;The Hobbit: The Desolation of Smaug;thumbUp;2,126
+26;thumbs;Suicide Squad;thumbDown;3,793
+26;thumbs;Me Before You;thumbUp;4,119
+26;thumbs;War for the Planet of the Apes;thumbUp;6,404
+26;thumbs;Elite Squad;thumbUp;3,994
+26;thumbs;Jurassic Park;thumbUp;2,275
+26;thumbs;Monsters, Inc,;thumbUp;1,677
+27;star;Captain America: Civil War;5;12,126
+27;star;Jurassic Park;5;2,171
+27;star;Suicide Squad;5;1,159
+27;star;Edward Scissorhands;5;1,493
+27;star;Harry Potter and the Deathly Hallows: Part 2;5;1,48
+27;star;Corpse Bride;5;1,375
+27;star;Finding Nemo;4;1,244
+27;star;The Incredibles;3;2,549
+27;star;The Fate of the Furios;3;2,359
+27;star;The Wolf of Wall Street;4;3,709
+27;star;Titanic;2;2,974
+27;star;Justice League;3;2,518
+27;star;It;5;1,379
+28;thumbs;The Matrix;thumbUp;18,299
+28;thumbs;Fifty Shades Darker;thumbDown;5,652
+28;thumbs;Cars;thumbUp;2,273
+28;thumbs;Se Eu Fosse VocÃª;thumbDown;2,283
+28;thumbs;The Hunger Games: Catching Fire;thumbUp;4,02
+28;thumbs;Paranormal Activity;thumbUp;1,674
+28;thumbs;Star Trek;thumbDown;2,306
+28;thumbs;The Hangover;thumbUp;1,534
+28;thumbs;The Twilight Saga: New Moon;thumbDown;2,584
+28;thumbs;Final Destination;thumbUp;1,86
+28;thumbs;Avatar;thumbUp;1,859
+28;thumbs;The Fate of the Furios;thumbDown;1,823
+28;thumbs;300;thumbDown;1,928
+28;thumbs;War for the Planet of the Apes;thumbUp;2,358
+28;thumbs;The Lord of the Rings: The Return of the King;thumbUp;1,41
+28;thumbs;Star Wars: The Force Awakens;thumbUp;2,067
+28;thumbs;50 First Dates;thumbUp;1,477
+28;thumbs;Rio;thumbUp;1,731
+28;thumbs;Edward Scissorhands;thumbUp;4,279
+28;thumbs;Batman v Superman: Dawn of Justice;thumbDown;2,044
+28;thumbs;Minha MÃ£e Ã© uma PeÃ§a: O Filme;thumbUp;1,512
+28;thumbs;Monsters, Inc,;thumbUp;1,33
+28;thumbs;Corpse Bride;thumbUp;1,696
+28;thumbs;The Karate Kid;thumbUp;1,541
+28;thumbs;Frozen;thumbUp;1,386
+28;thumbs;Friday the 13th;thumbDown;2,232
+28;thumbs;Maleficent;thumbDown;3,183
+28;thumbs;Beauty and the Beast;thumbUp;2,145
+28;thumbs;Elite Squad;thumbDown;2,55
+28;thumbs;Freddy vs, Jason;thumbDown;2,714
+28;thumbs;Black Panther;thumbUp;2,263
+28;thumbs;Twilight;thumbUp;2,533
+28;thumbs;Troy;thumbUp;2,209
+28;thumbs;Despicable Me;thumbUp;1,51
+28;thumbs;Sharknado;thumbDown;5,364
+28;thumbs;Hotel Transylvania;thumbUp;3,649
+28;thumbs;Bruce Almighty;thumbUp;3,458
+28;thumbs;Finding Nemo;thumbUp;1,499
+28;thumbs;Deadpool;thumbUp;1,705
+28;thumbs;Fast & Furious 6;thumbDown;2,263
+28;thumbs;I Am Legend;thumbUp;1,961
+28;thumbs;Zootopia;thumbUp;1,661
+28;thumbs;The Lion King;thumbUp;4,242
+28;thumbs;The Twilight Saga: Eclipse;thumbDown;2,014
+28;thumbs;Spider-Man: Homecoming;thumbUp;2,552
+28;thumbs;The Hobbit: The Desolation of Smaug;thumbDown;4,072
+28;thumbs;Iron Man;thumbUp;1,601
+28;thumbs;O Auto da Compadecida;thumbUp;1,793
+28;thumbs;Shrek;thumbUp;1,557
+28;thumbs;Justice League;thumbDown;1,559
+28;thumbs;Jurassic Park;thumbUp;1,36
+28;thumbs;Titanic;thumbUp;1,325
+28;thumbs;Toy Story 3;thumbUp;1,329
+28;thumbs;Click;thumbUp;1,323
+28;thumbs;Suicide Squad;thumbDown;1,843
+28;thumbs;The Conjuring;thumbUp;1,68
+28;thumbs;Ice Age;thumbUp;2,179
+28;thumbs;Me Before You;thumbUp;1,721
+28;thumbs;The Blue Lagoon;thumbUp;1,795
+28;thumbs;Fantastic Beasts and Where to Find Them;thumbUp;1,417
+28;thumbs;Harry Potter and the Deathly Hallows: Part 2;thumbUp;1,631
+28;thumbs;Avengers: Infinity War;thumbUp;1,671
+28;thumbs;Fifty Shades of Grey;thumbDown;2,334
+28;thumbs;Miss Peregrine's Home for Peculiar Children;thumbUp;1,512
+28;thumbs;Gravity;thumbUp;1,456
+28;thumbs;Thor: Ragnarok;thumbUp;1,799
+28;thumbs;American Pie;thumbUp;6,841
+28;thumbs;The Incredibles;thumbUp;1,593
+28;thumbs;The Dark Knight;thumbDown;1,529
+28;thumbs;Guardians of the Galaxy;thumbUp;1,611
+28;thumbs;Captain America: Civil War;thumbUp;1,572
+29;star;Corpse Bride;5;118,695
+29;star;Justice League;4;4,553
+29;star;Spider-Man: Homecoming;5;1,681
+29;star;The Lion King;5;1,669
+29;star;The Conjuring;3;4,443
+29;star;Final Destination;3;6,412
+29;star;Skyfall;5;3,113
+29;star;Avatar;5;2,329
+29;star;The Lego Movie;2;2,243
+29;star;American Pie;4;2,713
+29;star;John Wick;5;1,947
+29;star;Finding Nemo;5;1,314
+30;thumbs;The Fate of the Furios;thumbUp;35,971
+30;thumbs;La La Land;thumbDown;5,567
+30;thumbs;Interstellar;thumbUp;6,526
+30;thumbs;Pirates of the Caribbean: The Curse of the Black Pearl;thumbUp;5,043
+30;thumbs;Friday the 13th;thumbDown;3,669
+30;thumbs;Captain America: Civil War;thumbUp;2,431
+30;thumbs;It;thumbUp;1,529
+30;thumbs;Avatar;thumbUp;1,504
+30;thumbs;Final Destination;thumbUp;3,577
+30;thumbs;Freddy vs, Jason;thumbUp;2,493
+30;thumbs;Edward Scissorhands;thumbDown;7,436
+30;thumbs;I Am Legend;thumbUp;1,978
+30;thumbs;Fifty Shades of Grey;thumbUp;2,787
+30;thumbs;Gravity;thumbUp;1,818
+30;thumbs;Justice League;thumbUp;2,493
+30;thumbs;The Wolf of Wall Street;thumbDown;4,644
+30;thumbs;The Hobbit: The Desolation of Smaug;thumbUp;1,744
+30;thumbs;Iron Man;thumbUp;1,905
+30;thumbs;Star Wars: The Force Awakens;thumbUp;1,957
+30;thumbs;Fantastic Beasts and Where to Find Them;thumbUp;1,645
+30;thumbs;The Karate Kid;thumbDown;2,023
+30;thumbs;Cars;thumbUp;1,874
+30;thumbs;Frozen;thumbUp;1,478
+30;thumbs;Toy Story 3;thumbUp;1,503
+30;thumbs;The Passion of the Christ;thumbDown;1,724
+30;thumbs;Minha MÃ£e Ã© uma PeÃ§a: O Filme;thumbDown;3,388
+30;thumbs;Monsters, Inc,;thumbUp;1,42
+30;thumbs;The Dark Knight;thumbUp;1,443
+30;thumbs;300;thumbUp;8,957
+30;thumbs;Harry Potter and the Deathly Hallows: Part 2;thumbUp;1,865
+30;thumbs;Maleficent;thumbUp;1,94
+30;thumbs;Ted;thumbUp;1,456
+30;thumbs;Zootopia;thumbUp;1,591
+30;thumbs;Shrek;thumbUp;1,332
+30;thumbs;The Hunger Games: Catching Fire;thumbUp;1,739
+30;thumbs;Avengers: Infinity War;thumbUp;1,527
+30;thumbs;The Conjuring;thumbUp;2,016
+30;thumbs;The Lion King;thumbUp;2,267
+30;thumbs;The Twilight Saga: New Moon;thumbUp;2,713
+30;thumbs;The Blue Lagoon;thumbDown;2,818
+30;thumbs;Jurassic Park;thumbUp;1,374
+30;thumbs;Rio;thumbUp;1,317
+30;thumbs;Dear John;thumbUp;2,356
+30;thumbs;50 First Dates;thumbUp;2,683
+30;thumbs;Fight Clube;thumbDown;9,35
+30;thumbs;Guardians of the Galaxy;thumbUp;19,929
+30;thumbs;John Wick;thumbDown;1,817
+30;thumbs;Click;thumbDown;1,359
+30;thumbs;Bruce Almighty;thumbUp;2,831
+30;thumbs;Paranormal Activity;thumbUp;1,683
+30;thumbs;War for the Planet of the Apes;thumbUp;4,164
+30;thumbs;Deadpool;thumbUp;2,18
+30;thumbs;Black Panther;thumbUp;1,803
+30;thumbs;Skyfall;thumbDown;1,969
+30;thumbs;Me Before You;thumbUp;1,668
+30;thumbs;Corpse Bride;thumbUp;1,557
+30;thumbs;The Incredibles;thumbUp;1,421
+30;thumbs;The Shape of Water;thumbUp;4,225
+30;thumbs;Troy;thumbDown;2,181
+30;thumbs;Fast & Furious 6;thumbUp;2,189
+30;thumbs;Miss Peregrine's Home for Peculiar Children;thumbUp;1,891
+30;thumbs;Star Trek;thumbUp;1,582
+30;thumbs;Finding Nemo;thumbUp;2,255
+31;star;Shrek;4;6,474
+31;star;Troy;4;7,885
+31;star;Twilight;5;8,396
+31;star;The Lion King;5;6,735
+31;star;The Blue Lagoon;5;8,556
+32;star;Cars;3;36,701
+32;star;The Passion of the Christ;3;3,523
+32;star;Thor: Ragnarok;4;2,81
+32;star;Batman v Superman: Dawn of Justice;3;2,482
+32;star;Spider-Man: Homecoming;5;1,222
+32;star;Iron Man;4;1,918
+32;star;Gravity;3;1,732
+33;thumbs;Ice Age;thumbUp;20,956
+33;thumbs;The Dark Knight;thumbUp;4,683
+33;thumbs;Hotel Transylvania;thumbUp;1,842
+33;thumbs;Final Destination;thumbDown;2,329
+34;thumbs;Final Destination;thumbDown;8,81
+34;thumbs;The Shape of Water;thumbDown;1,496
+34;thumbs;Ted;thumbDown;1,382
+34;thumbs;The Passion of the Christ;thumbDown;1,186
+34;thumbs;Shrek;thumbDown;1,318
+34;thumbs;The Dark Knight;thumbUp;1,306
+34;thumbs;Twilight;thumbDown;1,155
+34;thumbs;The Blue Lagoon;thumbDown;1,088
+34;thumbs;The Matrix;thumbDown;1,936
+34;thumbs;Despicable Me;thumbDown;1,822
+34;thumbs;Edward Scissorhands;thumbUp;2,546
+34;thumbs;Jurassic Park;thumbUp;1,847
+35;thumbs;Sharknado;thumbUp;57,646
+35;thumbs;50 First Dates;thumbUp;2,872
+35;thumbs;Monsters, Inc,;thumbUp;2,68
+35;thumbs;O Auto da Compadecida;thumbUp;2,256
+35;thumbs;John Wick;thumbUp;2,064
+35;thumbs;Suicide Squad;thumbUp;2,2
+35;thumbs;Guardians of the Galaxy;thumbUp;2,248
+35;thumbs;War for the Planet of the Apes;thumbUp;2,607
+35;thumbs;The Lion King;thumbUp;1,857
+35;thumbs;Shrek;thumbUp;1,641
+35;thumbs;The Lord of the Rings: The Return of the King;thumbUp;1,497
+36;star;It;3;38,537
+36;star;Deadpool;4;3,575
+36;star;Rio;2;8,7
+36;star;Paranormal Activity;1;3,979
+36;star;Batman v Superman: Dawn of Justice;3;2,981
+36;star;Zootopia;3;3,758
+36;star;Despicable Me;3;6,012
+36;star;The Wolf of Wall Street;5;3,293
+37;thumbs;The Fate of the Furios;thumbDown;9,381
+37;thumbs;The Passion of the Christ;thumbDown;2,139
+37;thumbs;Se Eu Fosse VocÃª;thumbDown;1,588
+37;thumbs;Captain America: Civil War;thumbUp;1,623
+37;thumbs;The Hunger Games: Catching Fire;thumbDown;2,507
+37;thumbs;The Dark Knight;thumbUp;2,633
+37;thumbs;Maleficent;thumbUp;1,67
+37;thumbs;Star Trek;thumbUp;1,804
+37;thumbs;Rio;thumbUp;2,678
+37;thumbs;The Lion King;thumbUp;1,626
+37;thumbs;Hotel Transylvania;thumbUp;1,664
+37;thumbs;Miss Peregrine's Home for Peculiar Children;thumbUp;1,918
+37;thumbs;The Twilight Saga: Eclipse;thumbDown;3,238
+37;thumbs;Cars;thumbUp;2,566
+37;thumbs;The Incredibles;thumbUp;2,286
+37;thumbs;300;thumbUp;2,32
+37;thumbs;Deadpool;thumbUp;2,272
+37;thumbs;Guardians of the Galaxy;thumbUp;2,052
+37;thumbs;Ice Age;thumbUp;1,885
+37;thumbs;It;thumbUp;1,73
+37;thumbs;War for the Planet of the Apes;thumbUp;2,405
+37;thumbs;Freddy vs, Jason;thumbUp;2,31
+37;thumbs;Paranormal Activity;thumbDown;3,349
+37;thumbs;Bruce Almighty;thumbDown;1,577
+37;thumbs;Finding Nemo;thumbUp;1,599
+37;thumbs;Frozen;thumbUp;1,664
+37;thumbs;Ted;thumbUp;1,746
+37;thumbs;Batman v Superman: Dawn of Justice;thumbDown;2,249
+37;thumbs;I Am Legend;thumbUp;2,355
+37;thumbs;Black Panther;thumbUp;1,609
+37;thumbs;Jurassic Park;thumbUp;1,493
+37;thumbs;Interstellar;thumbUp;4,243
+37;thumbs;Despicable Me;thumbUp;2,904
+37;thumbs;Click;thumbDown;1,835
+37;thumbs;Gravity;thumbDown;2,558
+37;thumbs;The Shape of Water;thumbDown;2,199
+37;thumbs;Corpse Bride;thumbUp;1,906
+37;thumbs;Skyfall;thumbUp;1,876
+37;thumbs;Star Wars: The Force Awakens;thumbUp;1,637
+37;thumbs;Fast & Furious 6;thumbDown;2,42
+37;thumbs;The Karate Kid;thumbUp;3,026
+37;thumbs;O Auto da Compadecida;thumbDown;2,042
+37;thumbs;The Wolf of Wall Street;thumbUp;2,209
+37;thumbs;Thor: Ragnarok;thumbUp;1,787
+37;thumbs;Spider-Man: Homecoming;thumbUp;1,795
+37;thumbs;La La Land;thumbDown;1,714
+37;thumbs;Friday the 13th;thumbUp;2,428
+37;thumbs;Fantastic Beasts and Where to Find Them;thumbUp;2,378
+37;thumbs;Elite Squad;thumbDown;1,996
+37;thumbs;The Hobbit: The Desolation of Smaug;thumbUp;1,62
+37;thumbs;Justice League;thumbDown;3,994
+37;thumbs;The Conjuring;thumbDown;3,506
+37;thumbs;Avatar;thumbDown;1,956
+37;thumbs;Harry Potter and the Deathly Hallows: Part 2;thumbUp;1,599
+37;thumbs;Twilight;thumbDown;2,058
+37;thumbs;Beauty and the Beast;thumbUp;2,166
+37;thumbs;Edward Scissorhands;thumbUp;1,993
+37;thumbs;Avengers: Infinity War;thumbUp;1,523
+37;thumbs;The Matrix;thumbDown;2,648
+37;thumbs;John Wick;thumbUp;2,632
+37;thumbs;American Pie;thumbDown;2,387
+37;thumbs;Fifty Shades of Grey;thumbDown;2,103
+37;thumbs;Iron Man;thumbUp;1,608
+37;thumbs;Troy;thumbUp;2,644
+37;thumbs;Fight Clube;thumbUp;1,905
+37;thumbs;Final Destination;thumbDown;3,034
+37;thumbs;Pirates of the Caribbean: The Curse of the Black Pearl;thumbUp;3,26
+37;thumbs;Toy Story 3;thumbUp;1,489
+37;thumbs;The Hangover;thumbUp;3,909
+37;thumbs;Suicide Squad;thumbUp;1,847
+37;thumbs;The Lord of the Rings: The Return of the King;thumbUp;1,587
+38;star;Fight Clube;4;22,25
+38;star;Avengers: Infinity War;5;2,789
+38;star;Gravity;3;2,211
+38;star;The Lego Movie;2;1,585
+38;star;Maleficent;3;2,908
+38;star;Spider-Man: Homecoming;5;1,303
+38;star;The Hangover;3;2,317
+39;thumbs;Fifty Shades Darker;thumbUp;26,964
+39;thumbs;Shrek;thumbUp;3,279
+39;thumbs;John Wick;thumbUp;2,687
+39;thumbs;The Blue Lagoon;thumbUp;4,678
+39;thumbs;O Auto da Compadecida;thumbUp;8,803
+39;thumbs;Maleficent;thumbUp;2,806
+39;thumbs;The Karate Kid;thumbUp;6,316
+39;thumbs;Spider-Man: Homecoming;thumbUp;7,331
+39;thumbs;The Twilight Saga: Eclipse;thumbDown;7,137
+39;thumbs;Ice Age;thumbUp;4,478
+39;thumbs;Black Panther;thumbUp;6,729
+39;thumbs;Se Eu Fosse VocÃª;thumbUp;5,347
+39;thumbs;Frozen;thumbUp;4,005
+39;thumbs;Thor: Ragnarok;thumbUp;3,003
+39;thumbs;I Am Legend;thumbUp;3,56
+39;thumbs;Fight Clube;thumbDown;19,059
+39;thumbs;Twilight;thumbDown;7,963
+39;thumbs;The Shape of Water;thumbUp;4,048
+39;thumbs;The Lion King;thumbUp;18,804
+39;thumbs;Captain America: Civil War;thumbUp;11,249
+39;thumbs;Miss Peregrine's Home for Peculiar Children;thumbUp;13,705
+39;thumbs;War for the Planet of the Apes;thumbUp;15,402
+39;thumbs;Toy Story 3;thumbUp;4,65
+39;thumbs;Pirates of the Caribbean: The Curse of the Black Pearl;thumbUp;16,233
+39;thumbs;Bruce Almighty;thumbDown;19,494
+39;thumbs;The Hunger Games: Catching Fire;thumbUp;3,006
+39;thumbs;Fast & Furious 6;thumbDown;3,42
+39;thumbs;Freddy vs, Jason;thumbDown;7,93
+39;thumbs;Ted;thumbDown;3,165
+39;thumbs;Suicide Squad;thumbDown;15,142
+39;thumbs;The Dark Knight;thumbUp;3,854
+39;thumbs;Edward Scissorhands;thumbUp;14,006
+39;thumbs;The Wolf of Wall Street;thumbUp;9,144
+39;thumbs;Me Before You;thumbUp;2,951
+39;thumbs;Avengers: Infinity War;thumbUp;5,667
+39;thumbs;Titanic;thumbUp;2,954
+39;thumbs;The Passion of the Christ;thumbUp;7,621
+39;thumbs;Monsters, Inc,;thumbUp;4,313
+39;thumbs;Avatar;thumbUp;3,268
+39;thumbs;Corpse Bride;thumbUp;7,806
+39;thumbs;Jurassic Park;thumbDown;5,478
+39;thumbs;The Fate of the Furios;thumbDown;6,01
+39;thumbs;Sharknado;thumbDown;7,283
+39;thumbs;Deadpool;thumbDown;6,638
+39;thumbs;Finding Nemo;thumbUp;2,983
+39;thumbs;The Hobbit: The Desolation of Smaug;thumbUp;3,19
+39;thumbs;Despicable Me;thumbUp;3,948
+39;thumbs;Dear John;thumbUp;5,283
+39;thumbs;The Hangover;thumbDown;3,794
+39;thumbs;50 First Dates;thumbUp;2,693
+39;thumbs;Batman v Superman: Dawn of Justice;thumbUp;3,163
+39;thumbs;Rio;thumbUp;2,163
+39;thumbs;American Pie;thumbDown;3,392
+39;thumbs;The Incredibles;thumbUp;4,092
+39;thumbs;Paranormal Activity;thumbDown;9,173
+39;thumbs;Minha MÃ£e Ã© uma PeÃ§a: O Filme;thumbUp;4,3
+39;thumbs;Justice League;thumbUp;3,583
+39;thumbs;Zootopia;thumbUp;3,074
+39;thumbs;Fifty Shades of Grey;thumbUp;15,793
+39;thumbs;Guardians of the Galaxy;thumbUp;7,124
+39;thumbs;Cars;thumbUp;3,746
+39;thumbs;Hotel Transylvania;thumbUp;9,852
+39;thumbs;The Matrix;thumbUp;5,652
+39;thumbs;Friday the 13th;thumbDown;6,577
+39;thumbs;Elite Squad;thumbUp;12,757
+39;thumbs;Fantastic Beasts and Where to Find Them;thumbUp;8,303
+39;thumbs;Iron Man;thumbUp;10,979
+39;thumbs;The Lord of the Rings: The Return of the King;thumbUp;13,607
+40;star;John Wick;5;4,488
+40;star;The Dark Knight;5;2,839
+41;star;The Karate Kid;5;53,464
+41;star;Final Destination;2;26,146
+41;star;Deadpool;5;4,119
+41;star;50 First Dates;4;4,102
+41;star;Click;4;3,647
+41;star;The Wolf of Wall Street;5;2,666
+41;star;American Pie;4;3,593
+41;star;The Hobbit: The Desolation of Smaug;5;2,448
+41;star;Avengers: Infinity War;5;2,963
+41;star;O Auto da Compadecida;5;2,797
+41;star;Dear John;3;4,922
+41;star;Elite Squad;5;2,526
+41;star;Bruce Almighty;5;2,699
+41;star;The Lion King;4;3,101
+41;star;I Am Legend;5;3,461
+41;star;Troy;4;4,423
+41;star;The Hangover;4;4,277
+41;star;La La Land;4;5,025
+41;star;Finding Nemo;5;3,282
+41;star;Skyfall;5;3,624
+41;star;The Passion of the Christ;5;6,958
+41;star;The Twilight Saga: Eclipse;1;3,134
+41;star;Frozen;3;4,505
+41;star;The Twilight Saga: New Moon;2;4,79
+41;star;Freddy vs, Jason;4;4,485
+41;star;Paranormal Activity;3;4,832
+41;star;Sharknado;3;8,21
+41;star;The Lego Movie;3;2,806
+41;star;Avatar;5;2,234
+41;star;War for the Planet of the Apes;5;4,014
+41;star;It;3;3,086
+41;star;The Dark Knight;5;5,907
+41;star;Batman v Superman: Dawn of Justice;5;2,775
+41;star;Guardians of the Galaxy;5;4,015
+41;star;Rio;4;4,825
+41;star;Hotel Transylvania;3;4,408
+41;star;Star Trek;3;5,617
+41;star;Maleficent;4;53,72
+41;star;Toy Story 3;3;2,481
+41;star;Minha MÃ£e Ã© uma PeÃ§a: O Filme;4;18,276
+41;star;Cars;3;13,232
+41;star;The Lord of the Rings: The Return of the King;5;3,09
+41;star;Spider-Man: Homecoming;5;2,378
+41;star;300;5;1,481
+41;star;Fantastic Beasts and Where to Find Them;3;10,346
+41;star;Miss Peregrine's Home for Peculiar Children;3;5,935
+41;star;Zootopia;2;8,9
+41;star;Star Wars: The Force Awakens;5;3,631
+41;star;Corpse Bride;3;10,045
+41;star;John Wick;3;4,241
+41;star;Friday the 13th;3;3,831
+41;star;The Incredibles;3;3,745
+41;star;Gravity;4;3,357
+41;star;Pirates of the Caribbean: The Curse of the Black Pearl;5;2,822
+41;star;Iron Man;5;1,995
+41;star;Fifty Shades of Grey;1;7,383
+41;star;The Conjuring;3;3,948
+41;star;Edward Scissorhands;3;4,683
+41;star;Ted;3;2,643
+41;star;Suicide Squad;4;4,19
+41;star;Thor: Ragnarok;5;3,075
+41;star;Black Panther;5;7,719
+41;star;Titanic;5;4,543
+41;star;Monsters, Inc,;5;3,323
+41;star;The Shape of Water;5;2,283
+41;star;Twilight;1;4,186
+41;star;Ice Age;1;4,381
+41;star;Jurassic Park;5;4,915
+41;star;Shrek;5;38
+41;star;Harry Potter and the Deathly Hallows: Part 2;5;3,39
+41;star;Fight Clube;5;19,188
+41;star;Despicable Me;4;15,351
+41;star;The Hunger Games: Catching Fire;4;4,567
+41;star;Justice League;4;2,756
+42;thumbs;Minha MÃ£e Ã© uma PeÃ§a: O Filme;thumbUp;37,185
+42;thumbs;Harry Potter and the Deathly Hallows: Part 2;thumbUp;3,839
+42;thumbs;Avatar;thumbDown;2,618
+42;thumbs;Maleficent;thumbUp;2,157
+42;thumbs;50 First Dates;thumbUp;4,776
+42;thumbs;Fifty Shades Darker;thumbUp;8,093
+42;thumbs;Se Eu Fosse VocÃª;thumbUp;2,92
+42;thumbs;Bruce Almighty;thumbUp;2,601
+42;thumbs;Toy Story 3;thumbUp;2,208
+42;thumbs;Dear John;thumbUp;3,306
+42;thumbs;The Matrix;thumbDown;2,986
+42;thumbs;The Twilight Saga: Eclipse;thumbDown;3,168
+42;thumbs;Zootopia;thumbDown;1,63
+42;thumbs;Pirates of the Caribbean: The Curse of the Black Pearl;thumbUp;4,237
+42;thumbs;Beauty and the Beast;thumbUp;9,244
+42;thumbs;The Hangover;thumbUp;2,553
+42;thumbs;Shrek;thumbUp;2,707
+42;thumbs;Elite Squad;thumbUp;2,914
+42;thumbs;Ted;thumbDown;3,553
+42;thumbs;The Twilight Saga: New Moon;thumbDown;2,845
+42;thumbs;Fight Clube;thumbUp;4,509
+42;thumbs;Rio;thumbUp;2,141
+42;thumbs;300;thumbUp;4,202
+42;thumbs;Despicable Me;thumbUp;2,958
+42;thumbs;The Incredibles;thumbUp;2,268
+42;thumbs;The Blue Lagoon;thumbUp;3,846
+43;thumbs;O Auto da Compadecida;thumbUp;15,636
+43;thumbs;The Twilight Saga: Eclipse;thumbUp;3,953
+43;thumbs;Avatar;thumbUp;1,846
+43;thumbs;The Hangover;thumbUp;4,737
+43;thumbs;Shrek;thumbUp;4,678
+43;thumbs;Avengers: Infinity War;thumbUp;2,774
+43;thumbs;Freddy vs, Jason;thumbUp;23,535
+43;thumbs;Click;thumbUp;2,185
+43;thumbs;Elite Squad;thumbUp;3,426
+43;thumbs;Gravity;thumbUp;3,422
+43;thumbs;Fantastic Beasts and Where to Find Them;thumbUp;4,945
+43;thumbs;Final Destination;thumbUp;7,743
+43;thumbs;Star Wars: The Force Awakens;thumbUp;4,711
+43;thumbs;The Fate of the Furios;thumbUp;12,031
+43;thumbs;Black Panther;thumbUp;7,341
+43;thumbs;Toy Story 3;thumbUp;21,073
+43;thumbs;Pirates of the Caribbean: The Curse of the Black Pearl;thumbUp;6,561
+43;thumbs;Captain America: Civil War;thumbUp;3,191
+43;thumbs;The Incredibles;thumbUp;10,241
+43;thumbs;Twilight;thumbUp;2,653
+43;thumbs;Corpse Bride;thumbUp;2,573
+43;thumbs;The Hobbit: The Desolation of Smaug;thumbUp;1,35
+43;thumbs;Deadpool;thumbUp;3,638
+43;thumbs;I Am Legend;thumbUp;2,908
+43;thumbs;Finding Nemo;thumbUp;1,231
+43;thumbs;The Lord of the Rings: The Return of the King;thumbUp;1,099
+43;thumbs;Fast & Furious 6;thumbUp;1,288
+43;thumbs;Se Eu Fosse VocÃª;thumbUp;2,681
+43;thumbs;Spider-Man: Homecoming;thumbUp;2,946
+43;thumbs;Zootopia;thumbDown;3,693
+43;thumbs;Interstellar;thumbUp;1,909
+43;thumbs;Friday the 13th;thumbUp;1,595
+43;thumbs;It;thumbUp;1,246
+43;thumbs;Hotel Transylvania;thumbUp;2,439
+43;thumbs;Despicable Me;thumbDown;2,822
+43;thumbs;Suicide Squad;thumbUp;2,36
+43;thumbs;The Lion King;thumbUp;2,204
+43;thumbs;50 First Dates;thumbDown;1,799
+43;thumbs;Iron Man;thumbUp;1,608
+43;thumbs;John Wick;thumbUp;24,528
+43;thumbs;Cars;thumbUp;1,863
+43;thumbs;Frozen;thumbUp;1,464
+43;thumbs;La La Land;thumbDown;3,644
+43;thumbs;The Twilight Saga: New Moon;thumbUp;1,576
+43;thumbs;Paranormal Activity;thumbUp;1,914
+43;thumbs;The Karate Kid;thumbDown;3,385
+43;thumbs;Justice League;thumbUp;2,312
+43;thumbs;Troy;thumbUp;2,122
+43;thumbs;Ice Age;thumbUp;1,546
+43;thumbs;Star Trek;thumbUp;1,37
+43;thumbs;The Blue Lagoon;thumbDown;2,278
+43;thumbs;Guardians of the Galaxy;thumbUp;1,76
+43;thumbs;300;thumbUp;1,312
+43;thumbs;Maleficent;thumbUp;1,97
+43;thumbs;American Pie;thumbUp;1,68
+43;thumbs;Harry Potter and the Deathly Hallows: Part 2;thumbUp;1,513
+43;thumbs;Thor: Ragnarok;thumbUp;1,331
+43;thumbs;Edward Scissorhands;thumbDown;3,447
+43;thumbs;Jurassic Park;thumbUp;1,547
+43;thumbs;The Hunger Games: Catching Fire;thumbUp;2,037
+43;thumbs;Batman v Superman: Dawn of Justice;thumbUp;1,503
+43;thumbs;Monsters, Inc,;thumbUp;1,354
+43;thumbs;War for the Planet of the Apes;thumbUp;2,906
+43;thumbs;The Dark Knight;thumbUp;1,064
+43;thumbs;Bruce Almighty;thumbUp;3,519
+43;thumbs;Rio;thumbDown;9,456
+43;thumbs;The Matrix;thumbUp;17,548
+43;thumbs;Titanic;thumbUp;6,718
+43;thumbs;Fight Clube;thumbUp;2,495
+43;thumbs;Sharknado;thumbDown;2,659
+43;thumbs;The Wolf of Wall Street;thumbUp;1,797
+43;thumbs;The Shape of Water;thumbDown;1,731
+44;thumbs;Sharknado;thumbDown;12,857
+44;thumbs;Zootopia;thumbDown;2,447
+44;thumbs;The Hangover;thumbUp;3,263
+44;thumbs;La La Land;thumbDown;1,591
+44;thumbs;Captain America: Civil War;thumbUp;1,392
+45;thumbs;Se Eu Fosse VocÃª;thumbUp;103,123
+45;thumbs;Me Before You;thumbUp;3,564
+45;thumbs;Captain America: Civil War;thumbUp;1,857
+45;thumbs;300;thumbDown;3,106
+45;thumbs;Batman v Superman: Dawn of Justice;thumbDown;1,305
+45;thumbs;Avengers: Infinity War;thumbUp;1,737
+45;thumbs;Friday the 13th;thumbDown;2,046
+45;thumbs;Elite Squad;thumbUp;3,067
+45;thumbs;Despicable Me;thumbUp;1,677
+45;thumbs;The Passion of the Christ;thumbUp;2,029
+45;thumbs;The Conjuring;thumbDown;2,219
+45;thumbs;Guardians of the Galaxy;thumbUp;1,643
+45;thumbs;Miss Peregrine's Home for Peculiar Children;thumbUp;1,457
+45;thumbs;The Lego Movie;thumbUp;1,481
+45;thumbs;Harry Potter and the Deathly Hallows: Part 2;thumbUp;1,349
+45;thumbs;Hotel Transylvania;thumbUp;1,363
+45;thumbs;Fast & Furious 6;thumbUp;1,278
+45;thumbs;Skyfall;thumbDown;1,722
+46;thumbs;Edward Scissorhands;thumbUp;51,05
+46;thumbs;I Am Legend;thumbUp;1,665
+46;thumbs;Friday the 13th;thumbUp;2,121
+46;thumbs;Toy Story 3;thumbUp;1,987
+46;thumbs;The Matrix;thumbUp;1,906
+46;thumbs;Elite Squad;thumbUp;2,165
+47;thumbs;Spider-Man: Homecoming;thumbUp;12,534
+47;thumbs;Beauty and the Beast;thumbUp;1,465
+47;thumbs;Final Destination;thumbDown;1,365
+47;thumbs;Minha MÃ£e Ã© uma PeÃ§a: O Filme;thumbDown;1,373
+47;thumbs;O Auto da Compadecida;thumbDown;3,211
+47;thumbs;Twilight;thumbDown;1,366
+48;thumbs;The Twilight Saga: New Moon;thumbDown;72,56
+48;thumbs;War for the Planet of the Apes;thumbUp;6,069
+48;thumbs;Edward Scissorhands;thumbUp;3,665
+48;thumbs;Shrek;thumbUp;3,142
+48;thumbs;Twilight;thumbDown;8,823
+48;thumbs;Black Panther;thumbUp;2,863
+48;thumbs;Ice Age;thumbUp;7,157
+48;thumbs;The Twilight Saga: Eclipse;thumbDown;3,91
+48;thumbs;Finding Nemo;thumbUp;4,483
+48;thumbs;Freddy vs, Jason;thumbDown;4,255
+48;thumbs;Sharknado;thumbDown;3,148
+48;thumbs;The Dark Knight;thumbUp;2,514
+48;thumbs;Frozen;thumbUp;3,418
+48;thumbs;The Fate of the Furios;thumbUp;2,384
+48;thumbs;50 First Dates;thumbUp;2,471
+48;thumbs;Titanic;thumbUp;2,206
+48;thumbs;Troy;thumbUp;3,458
+48;thumbs;Iron Man;thumbUp;2,595
+48;thumbs;Click;thumbUp;2,15
+48;thumbs;The Incredibles;thumbUp;1,945
+48;thumbs;Pirates of the Caribbean: The Curse of the Black Pearl;thumbUp;5,703
+48;thumbs;Batman v Superman: Dawn of Justice;thumbUp;1,848
+48;thumbs;The Hobbit: The Desolation of Smaug;thumbUp;2,823
+48;thumbs;The Conjuring;thumbUp;3,818
+48;thumbs;Guardians of the Galaxy;thumbUp;1,969
+48;thumbs;Spider-Man: Homecoming;thumbUp;3,337
+48;thumbs;The Blue Lagoon;thumbUp;3,247
+48;thumbs;Friday the 13th;thumbUp;2,724
+48;thumbs;Avengers: Infinity War;thumbUp;2,408
+48;thumbs;Harry Potter and the Deathly Hallows: Part 2;thumbUp;3,359
+48;thumbs;Se Eu Fosse VocÃª;thumbUp;3,976
+48;thumbs;Star Wars: The Force Awakens;thumbUp;8,081
+48;thumbs;Avatar;thumbUp;2,446
+49;star;Dear John;2;16,699
+49;star;50 First Dates;3;3,753
+49;star;The Fate of the Furios;1;2,943
+49;star;The Wolf of Wall Street;2;1,747
+49;star;Avengers: Infinity War;5;1,875
+50;star;Maleficent;2;53,727
+50;star;Cars;1;11,295
+50;star;Dear John;4;5,504
+50;star;Iron Man;5;7,122
+50;star;Jurassic Park;5;1,252
+50;star;Harry Potter and the Deathly Hallows: Part 2;1;6,142
+50;star;Star Trek;1;2,734
+50;star;The Blue Lagoon;1;13,755
+51;star;Se Eu Fosse VocÃª;5;26,777
+51;star;Minha MÃ£e Ã© uma PeÃ§a: O Filme;5;2,927
+51;star;The Lego Movie;1;3,341
+51;star;Edward Scissorhands;4;4,943
+51;star;The Lord of the Rings: The Return of the King;1;3,908
+51;star;The Incredibles;5;2,938
+51;star;Sharknado;1;5,312
+51;star;Friday the 13th;3;5,293
+51;star;Despicable Me;4;3,34
+51;star;The Matrix;3;2,956
+51;star;Click;5;5,078
+51;star;La La Land;5;3,325
+51;star;Monsters, Inc,;5;2,286
+51;star;Elite Squad;5;3,811
+51;star;Dear John;5;7,146
+51;star;Finding Nemo;5;3,433
+51;star;Cars;2;4,291
+51;star;The Hunger Games: Catching Fire;5;2,622
+51;star;Jurassic Park;2;7,25
+51;star;Toy Story 3;3;3,29
+51;star;Troy;5;6,181
+51;star;The Twilight Saga: New Moon;5;5,71
+51;star;Iron Man;5;5,01
+51;star;Justice League;5;3,438
+51;star;The Lion King;5;4,043
+51;star;Shrek;5;1,705
+52;star;Maleficent;4;18,354
+52;star;Edward Scissorhands;5;6,264
+52;star;Deadpool;5;2,726
+52;star;Gravity;4;2,025
+52;star;Interstellar;4;2,394
+52;star;Hotel Transylvania;5;1,374
+52;star;Avatar;4;2,027
+52;star;Pirates of the Caribbean: The Curse of the Black Pearl;5;1,594
+52;star;Minha MÃ£e Ã© uma PeÃ§a: O Filme;3;1,714
+52;star;It;4;1,59
+52;star;Black Panther;5;1,381
+53;star;Twilight;1;13,457
+53;star;Shrek;3;2,745
+53;star;The Matrix;2;1,877
+53;star;Troy;4;2,865
+53;star;The Lion King;5;1,983
+53;star;I Am Legend;4;3,553
+53;star;Fight Clube;5;3,089
+53;star;Fantastic Beasts and Where to Find Them;5;2,296
+53;star;Suicide Squad;4;1,802
+54;thumbs;Twilight;thumbDown;9,687
+54;thumbs;It;thumbUp;2,55
+54;thumbs;The Conjuring;thumbDown;1,477
+54;thumbs;Jurassic Park;thumbUp;2,813
+55;star;The Lion King;5;8,055
+55;star;Maleficent;4;6,944
+55;star;Iron Man;5;7,278
+55;star;The Wolf of Wall Street;5;14,253
+55;star;The Dark Knight;4;5,382
+55;star;Black Panther;5;4,838
+55;star;300;5;4,525
+55;star;Corpse Bride;5;6,703
+55;star;Twilight;3;6,671
+55;star;Friday the 13th;1;5,303
+55;star;Jurassic Park;5;6,7
+55;star;The Hobbit: The Desolation of Smaug;4;13,351
+55;star;50 First Dates;5;7,893
+55;star;Interstellar;5;5,029
+55;star;Edward Scissorhands;5;7,72
+55;star;American Pie;2;8,197
+55;star;Freddy vs, Jason;1;4,5
+55;star;Avatar;5;3,718
+55;star;Elite Squad;4;5,786
+55;star;Deadpool;5;2,391
+55;star;Shrek;5;2,262
+55;star;The Lord of the Rings: The Return of the King;5;2,795
+55;star;Zootopia;4;7,605
+55;star;The Matrix;5;9,739
+55;star;The Blue Lagoon;3;5,924
+55;star;Bruce Almighty;4;9,296
+55;star;Star Wars: The Force Awakens;4;4,199
+55;star;Paranormal Activity;3;5,151
+55;star;The Twilight Saga: Eclipse;2;3,79
+55;star;Click;4;4,377
+55;star;Despicable Me;4;5,273
+55;star;O Auto da Compadecida;3;6,31
+55;star;Captain America: Civil War;4;4,084
+55;star;Suicide Squad;3;7,214
+55;star;Rio;4;6,013
+55;star;Harry Potter and the Deathly Hallows: Part 2;4;5,292
+55;star;Se Eu Fosse VocÃª;3;5,727
+55;star;Finding Nemo;4;3,765
+55;star;Toy Story 3;5;2,68
+55;star;Ice Age;5;4,073
+55;star;Pirates of the Caribbean: The Curse of the Black Pearl;5;7,268
+55;star;The Karate Kid;5;4,078
+55;star;Frozen;4;4,127
+55;star;I Am Legend;4;3,799
+55;star;Avengers: Infinity War;5;2,894
+55;star;Hotel Transylvania;4;4,43
+55;star;Thor: Ragnarok;4;4,165
+55;star;Guardians of the Galaxy;5;2,507
+55;star;Fantastic Beasts and Where to Find Them;5;2,906
+55;star;Justice League;4;3,281
+55;star;The Twilight Saga: New Moon;2;3,34
+55;star;Sharknado;1;5,193
+55;star;Monsters, Inc,;5;2,686
+55;star;The Incredibles;5;3,295
+55;star;Miss Peregrine's Home for Peculiar Children;5;6,338
+55;star;Titanic;4;3,248
+55;star;Beauty and the Beast;4;7,358
+56;star;Edward Scissorhands;3;261,289
+56;star;Rio;4;5,474
+56;star;Gravity;5;5,301
+56;star;Titanic;5;4,21
+56;star;Harry Potter and the Deathly Hallows: Part 2;4;5,885
+56;star;The Lord of the Rings: The Return of the King;3;5,834
+56;star;Zootopia;5;3,517
+56;star;Beauty and the Beast;5;3,278
+56;star;The Karate Kid;3;6,735
+56;star;The Blue Lagoon;3;7,091
+56;star;Despicable Me;5;4,168
+56;star;Hotel Transylvania;5;3,858
+56;star;O Auto da Compadecida;5;3,824
+56;star;50 First Dates;5;3,58
+56;star;The Hobbit: The Desolation of Smaug;3;3,46
+56;star;Bruce Almighty;3;3,954
+56;star;Click;5;3,915
+56;star;Pirates of the Caribbean: The Curse of the Black Pearl;3;4,844
+56;star;The Fate of the Furios;2;5,432
+56;star;Maleficent;5;3,267
+56;star;The Hunger Games: Catching Fire;3;3,93
+56;star;Deadpool;3;4,147
+56;star;Fifty Shades of Grey;1;4,686
+56;star;Spider-Man: Homecoming;5;12,768
+56;star;The Twilight Saga: Eclipse;1;5,151
+56;star;Dear John;3;4,147
+56;star;Friday the 13th;1;4,681
+56;star;The Conjuring;5;10,826
+56;star;Captain America: Civil War;3;4,767
+56;star;The Shape of Water;5;18,919
+56;star;American Pie;1;5,469
+56;star;Ice Age;5;5,351
+56;star;I Am Legend;5;4,613
+56;star;Interstellar;5;4,952
+56;star;Iron Man;5;4,159
+56;star;Finding Nemo;5;4,267
+56;star;War for the Planet of the Apes;5;6,193
+56;star;Avengers: Infinity War;5;6,463
+56;star;Shrek;5;4,318
+56;star;Minha MÃ£e Ã© uma PeÃ§a: O Filme;5;4,632
+56;star;The Passion of the Christ;5;7,027
+56;star;The Incredibles;5;4,851
+56;star;Jurassic Park;5;4,07
+56;star;Se Eu Fosse VocÃª;5;3,195
+56;star;Frozen;5;3,811
+56;star;Me Before You;5;4,124
+57;thumbs;Avengers: Infinity War;thumbUp;26,639
+57;thumbs;Miss Peregrine's Home for Peculiar Children;thumbUp;3,348
+57;thumbs;Beauty and the Beast;thumbUp;2,494
+57;thumbs;Hotel Transylvania;thumbUp;1,434
+57;thumbs;Maleficent;thumbUp;1,131
+57;thumbs;Fifty Shades of Grey;thumbUp;2,226
+57;thumbs;Guardians of the Galaxy;thumbUp;1,663
+58;thumbs;Finding Nemo;thumbUp;74,612
+58;thumbs;War for the Planet of the Apes;thumbDown;9,849
+58;thumbs;Edward Scissorhands;thumbUp;5,219
+58;thumbs;Beauty and the Beast;thumbUp;6,494
+58;thumbs;Elite Squad;thumbUp;4,704
+58;thumbs;The Karate Kid;thumbDown;4,917
+58;thumbs;Click;thumbUp;3,46
+58;thumbs;50 First Dates;thumbUp;4,308
+58;thumbs;Zootopia;thumbUp;3,844
+58;thumbs;Rio;thumbUp;4,168
+58;thumbs;Spider-Man: Homecoming;thumbUp;9,67
+58;thumbs;Avengers: Infinity War;thumbUp;3,615
+58;thumbs;The Wolf of Wall Street;thumbUp;4,612
+58;thumbs;The Blue Lagoon;thumbUp;6,471
+58;thumbs;O Auto da Compadecida;thumbUp;3,488
+59;thumbs;The Fate of the Furios;thumbUp;49,24
+59;thumbs;Titanic;thumbUp;4,941
+59;thumbs;The Dark Knight;thumbUp;14,145
+59;thumbs;Minha MÃ£e Ã© uma PeÃ§a: O Filme;thumbDown;11,78
+59;thumbs;Rio;thumbDown;5,238
+59;thumbs;The Matrix;thumbUp;7,779
+59;thumbs;Fast & Furious 6;thumbUp;3,361
+59;thumbs;La La Land;thumbUp;8,617
+59;thumbs;The Wolf of Wall Street;thumbUp;13,369
+59;thumbs;Pirates of the Caribbean: The Curse of the Black Pearl;thumbUp;7,373
+59;thumbs;Star Wars: The Force Awakens;thumbUp;15,56
+59;thumbs;50 First Dates;thumbUp;18,799
+59;thumbs;Skyfall;thumbUp;5,336
+59;thumbs;Jurassic Park;thumbUp;4,478
+59;thumbs;Edward Scissorhands;thumbUp;9,987
+59;thumbs;Se Eu Fosse VocÃª;thumbUp;4,051
+59;thumbs;Avatar;thumbDown;6,155
+59;thumbs;The Twilight Saga: New Moon;thumbDown;5,238
+59;thumbs;Ice Age;thumbUp;3,73
+59;thumbs;The Hangover;thumbUp;5,224
+59;thumbs;Cars;thumbUp;5,263
+59;thumbs;Click;thumbDown;4,737
+59;thumbs;Monsters, Inc,;thumbUp;3,115
+59;thumbs;The Hunger Games: Catching Fire;thumbDown;5,561
+59;thumbs;American Pie;thumbUp;3,755
+59;thumbs;The Hobbit: The Desolation of Smaug;thumbDown;3,353
+59;thumbs;Captain America: Civil War;thumbDown;7,092
+59;thumbs;Interstellar;thumbUp;11,487
+59;thumbs;Finding Nemo;thumbUp;2,249
+59;thumbs;Batman v Superman: Dawn of Justice;thumbDown;14,816
+59;thumbs;The Incredibles;thumbUp;4,297
+59;thumbs;Maleficent;thumbDown;5,402
+59;thumbs;The Lion King;thumbUp;4,914
+59;thumbs;Ted;thumbUp;9,099
+59;thumbs;Gravity;thumbUp;4,583
+59;thumbs;Iron Man;thumbUp;4,019
+60;star;Fight Clube;4;11,196
+60;star;The Hobbit: The Desolation of Smaug;5;9,62
+60;star;Fifty Shades Darker;2;13,412
+60;star;Guardians of the Galaxy;5;4,77
+60;star;Elite Squad;3;2,732
+60;star;Paranormal Activity;3;3,655
+60;star;La La Land;3;2,908
+60;star;Corpse Bride;4;8,769
+60;star;Harry Potter and the Deathly Hallows: Part 2;4;4,885
+60;star;Justice League;4;2,492
+60;star;50 First Dates;4;2,269
